@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+  --verde-fundo: #0a574d;
+  --branco-off:#eff0e0;
+  --branco-off-escuro:#dadcb7;
+  --verde-fundo-escuro:#084941;
+}
+
+@font-face{
+  font-family: "FireSans";
+  src: url("./fonts/FiraSansCondensed-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body{
+    background-color:var(--branco-off);
+}
+
+.container {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+
+}
+
+#home {
+   display: inline-block;
+
+  text-decoration: none;
+  color: var(--verde-fundo);
+  font-family: "FireSans";
+  font-size: 20px;
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left:15px;
+}
+
+.menu-btn {
+  padding: 10px 15px;
+  background-color:transparent;
+  border:none;
+  color:var(--verde-fundo);
+  font-size: 25px;
+  cursor: pointer;
+  float:right;
+}
+
+.sumario{
+    width:100%;
+    height:140px;
+
+
+    margin-top:80px;
+ 
+  
+}
+
+
+.opcoes{
+
+    width:100%;
+    height:50px;
+    font-family:"FireSans";
+    font-size:20px;
+    color:var(--verde-fundo);
+    white-space:nowrap;
+    border:none;
+    border-bottom:2px solid var(--branco-off-escuro);
+    background-color:transparent;
+    cursor: pointer;
+    padding-right :100%;
+    padding-left:20px;
+}
+.opcoes:hover{
+    background-color:var(--branco-off-escuro);
+    color:var(--verde-fundo-escuro);
+}
