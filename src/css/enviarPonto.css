@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+  --verde-fundo: #0a574d;
+  --branco-off:#eff0e0;
+  --branco-off-escuro:#dadcb7;
+  --verde-fundo-escuro:#084941;
+  --verde-fundo-escuro-2:#021710;
+}
+@font-face{
+  font-family: "FireSans";
+  src: url("../../fonts/FiraSansCondensed-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body{
+    font-family: "FireSans";
+    background-color:var(--branco-off);
+}
+.cabeçalho {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+
+}
+
+#home {
+   display: inline-block;
+
+  text-decoration: none;
+  color: var(--verde-fundo);
+  font-family: "FireSans";
+  font-size: 20px;
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left:15px;
+}
+
+
+.menu-btn {
+  padding: 10px 15px;
+  background-color:transparent;
+  border:none;
+  color:var(--verde-fundo);
+  font-size: 25px;
+  cursor: pointer;
+  float:right;
+}
+
+.formulario {
+    width: 100%;
+    height: 400px;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco-off-escuro);
+    border-radius: 50px;
+    
+    
+
+}
+
+
+.formulario h2 {
+    font-family: "FireSans";
+    color: var(--verde-fundo);
+    margin-bottom: 15px;
+}
+.formulario input {
+    width: 300px;
+    height: 40px;
+    font-family: "FireSans";
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--verde-fundo-escuro);
+    border-radius: 5px;
+}
+
+#titulo {
+    font-family: "FireSans";
+    color: var(--verde-fundo);
+    margin-left:20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+}

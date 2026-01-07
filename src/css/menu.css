@@ -74,10 +74,16 @@ body{
     border-bottom:2px solid var(--branco-off-escuro);
     background-color:transparent;
     cursor: pointer;
-    padding-right :100%;
-    padding-left:20px;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .opcoes:hover{
     background-color:var(--branco-off-escuro);
     color:var(--verde-fundo-escuro);
+}
+.opcoes i{
+    font-size:20px;
 }

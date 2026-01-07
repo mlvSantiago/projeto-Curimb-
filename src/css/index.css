@@ -8,6 +8,7 @@
   --branco-off:#eff0e0;
   --branco-off-escuro:#dadcb7;
   --verde-fundo-escuro:#084941;
+  --verde-fundo-escuro-2:#021710;
 }
 
 @font-face{
@@ -18,8 +19,45 @@
 }
 
 
-body{
-    background-color:var(--verde-fundo);
+
+
+body {
+    position: relative; 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--verde-fundo-escuro-2), var(--verde-fundo-escuro), var(--verde-fundo));
+       
+}
+
+
+body::after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /*para permitir cliques*/
+
+    background-image: url("../../img/arruda.png");
+    background-repeat: no-repeat;
+    background-position: -90% bottom;
+    background-size: 120vw;
+
+    opacity: 0.1; /* ajuste entre 0 (transparente) e 1 (opaco) */
+    
+}
+
+
+.container1{
+  max-width: 100%;
+  height:800px;
+  margin-left:20px;
+  margin-top:40px;
+  padding-top:35px;
+
+  margin-top:25px;
+  margin-bottom:35px;
 }
 .container2 {
   max-width: 100%;
@@ -107,7 +145,7 @@ body{
 }
 .menu-btn {
   padding: 10px 15px;
-  background-color:var(--verde-fundo);
+  background-color:transparent;
   border:none;
   color:var(--branco-off);
   font-size: 25px;
@@ -150,7 +188,7 @@ body{
 
 .centraliza{
   max-width:100%;
-  height:50px;
+  height:75px;
 
   padding-top:20px;
 
