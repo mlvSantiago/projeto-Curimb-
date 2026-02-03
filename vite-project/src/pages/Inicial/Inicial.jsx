@@ -1,62 +1,162 @@
 import './Inicial.css'
 import '../../style/global.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react'; 
+import minhaImagem from '../../assets/img/curimbaSefa.png';
 
+//Imagem Orixas
+import Oxala from '../../assets/img/Orixas/Oxala.jpeg';
+import Oxossi from '../../assets/img/Orixas/Oxossi.jpeg';
+import Xango from '../../assets/img/Orixas/Xangô.jpeg';
+import Iemanja from '../../assets/img/Orixas/Yemanja.jpeg';
+import Iansã from '../../assets/img/Orixas/Iansa.jpeg';
+import Oxum from '../../assets/img/Orixas/Oxum.jpeg';  
+import Oxumare from '../../assets/img/Orixas/Oxumare.jpeg';
+
+import Nanã from '../../assets/img/Orixas/Nana.jpeg';  
+import Ogum from '../../assets/img/Orixas/Ogum.jpeg';
+import Exu from '../../assets/img/Orixas/Exu.jpeg';
+
+
+
+
+import { Link } from 'react-router-dom';
 
 export default function Inicial() {
   const irradiação = 170;
   const louvacao = 200;
-  const defumacao=50;
+  const defumacao = 50;
+
+  const orixas = [
+    { nome: 'Oxalá', imagem: Oxala },
+    { nome: 'Oxossi', imagem: Oxossi },
+    { nome: 'Ogum', imagem: Ogum },
+    { nome: 'Iemanjá', imagem: Iemanja },
+    { nome: 'Oxum', imagem: Oxum },
+    { nome: 'Oxumaré', imagem: Oxumare },
+    { nome: 'Iansã', imagem: Iansã },
+    { nome: 'Nanã', imagem: Nanã },
+    { nome: 'Xangô', imagem: Xango },
+    { nome: 'Povo Trabalhador', imagem: Exu },
+  ];
+
+
 
   const navigate = useNavigate();
 
+  // useEffect garante que o elemento so sera pego depois de carregado na tela
+  useEffect(() => {
+    const elements = document.querySelectorAll('.hidden');
+    
+    // Intersection Observer para observar o elemento, avisa quando ele entrar na viewport
+    const myObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show'); // Adiciona a classe 'show' quando o elemento entra na viewport
+       
+        } else {
+          entry.target.classList.remove('show'); // Remove a classe 'show' quando o elemento sai da viewport
+        }
+      });
+    });
+    
+    elements.forEach((el) => {
+      myObserver.observe(el); // Observar cada elemento
+    });
+
+    // Cleanup: desconecta o observer quando o componente for desmontado
+    return () => {
+      myObserver.disconnect();
+    };
+  }, []); // Array vazio significa que executa apenas uma vez após a montagem
+
   return (
-    <div className='fundo-inicial fade-in'>
+    <div className='fundo-inicial hidden'>
       <div className='container margens'>
-        <div className='mb-5 mt-5'>
-          <h1 className='mb-3'>Tecnologia a serviço do sagrado
-          <br></br>Sem substituir a vivência do terreiro
+        <div className='mb-5 mt-5 '>
+          <h1 className='mb-3'>
+            Tecnologia a serviço do sagrado
+            <br />
+            Sem substituir a vivência do terreiro
           </h1>
-          <p className='mb-3 '>Organização e preservação de pontos com respeito a tradição e ancestralidade</p>
-          <button className="btn btn-primary" id='verPontos' type='button'
-            onClick={()=>navigate('/pontos')}>
-            Ver pontos
-            </button>
+          <p className='mb-3'>
+            Organização e preservação de pontos com respeito a tradição e ancestralidade
+          </p>
+       
         </div>
 
-        <div className='card card-estilo'>
+      {/* Imagens clicaveis*/ }
+      
+        <div className="galeria-orixas">
+        {orixas.map((orixa, index) => (
+          <Link 
+            key={index} 
+            to="/pontos" 
+            className="card-orixa"
+          >
+            <img src={orixa.imagem} alt={orixa.nome} />
+            <h3>{orixa.nome}</h3>
+          </Link>
+        ))}
+      </div>
+
+        <div className='card card-estilo hidden'>
           <h2 className='mb-3'>O que é o Curimbã?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus alias corrupti aliquid laboriosam dolores sequi! Dolorem porro fugiat nostrum id dicta eum minus? Facere velit dolorum minus magni incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nesciunt odio, magni suscipit non nihil perspiciatis veniam obcaecati modi molestiae hic porro nisi impedit necessitatibus ad animi quia alias eveniet? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam aliquam voluptatem repellat eaque, nobis pariatur? Dolorum voluptatibus minima quo commodi nostrum excepturi adipisci officiis eum praesentium molestiae. Hic, nihil quibusdam.</p>
-          <a href="https://tendaespiritamirim.com.br/institucional/sobre-nos/">Conheça a nossa doutrina <i className="bi bi-arrow-right "></i></a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus alias corrupti aliquid laboriosam dolores sequi! Dolorem porro fugiat nostrum id dicta eum minus? Facere velit dolorum minus magni incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nesciunt odio, magni suscipit non nihil perspiciatis veniam obcaecati modi molestiae hic porro nisi impedit necessitatibus ad animi quia eveniet?</p>
+          <img src={minhaImagem} alt="Curimba Seara Espiritualista Falangeiros da Aruanda" className='foto-curimba' />
+
+          <a href="https://tendaespiritamirim.com.br/institucional/sobre-nos/">
+            Conheça a nossa doutrina <i className="bi bi-arrow-right"></i>
+          </a>
         </div>
 
         <div>
           <h2 className='mb-3'>Como Funciona</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus alias corrupti aliquid laboriosam dolores sequi! Dolorem porro fugiat nostrum id dicta eum minus? Facere velit dolorum minus magni incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nesciunt odio, magni suscipit non nihil perspiciatis veniam obcaecati modi molestiae hic porro nisi impedit necessitatibus ad animi quia alias eveniet?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus alias corrupti aliquid laboriosam dolores sequi! Dolorem porro fugiat nostrum id dicta eum minus? Facere velit dolorum minus magni incidunt!</p>
         </div>
       </div>
 
-     
-
-        <div className='dados'>
-          <div className='grid-container'>
-
+      {/* Seção Pelos Números */}
+      <div className='dados hidden'>
+        <div className='grid-container'>
+          {/* Coluna Esquerda - Texto */}
           <div className='item'>
-            <h2><a id="pelosNumeros">Pelos números</a> 
-            <br />
-            Alimentando a curimba</h2>
-            <p>Nosso Acervo conta com mais de XXXX pontos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ratione autem fugiat blanditiis veritatis, accusamus saepe laborum eveniet, dolore repellendus dolorem fuga, nulla molestias voluptates dignissimos aliquam vero doloribus beatae?</p>
+            <h2>
+              <a id="pelosNumeros">Pelos números,</a>
+              <br />
+              Alimentando a curimba
+            </h2>
+            <p>
+              Nosso Acervo conta com mais de {irradiação + louvacao + defumacao} pontos catalogados e organizados com respeito à tradição e ancestralidade, preservando a memória sagrada da Umbanda.
+            </p>
           </div>
-          <div className='dados-num item'>
-            <p><a>{irradiação}</a> pontos de irradiação</p>
-            <p><a >{louvacao}</a> pontos de louvação</p>
-            <p><a>{defumacao}</a> pontos de defumação</p>
+
+          {/* Coluna Direita - Números */}
+          <div className='dados-num'>
+            {/* Número Principal */}
+            <div className='principal'>
+              <span className='numero-destaque'>+{irradiação}</span>
+              pontos de irradiação
+            </div>
+
+            {/* Números Secundários */}
+            <div className='dados-num-secundarios'>
+              <div className='sub'>
+                <span className='numero-destaque'>+{louvacao}</span>
+                pontos de louvação
+              </div>
+
+              <div className='sub'>
+                <span className='numero-destaque'>+{defumacao}</span>
+                pontos de defumação
+              </div>
+            </div>
           </div>
-          </div>
-          
-          <button className='btn btn-primary'>Contribuir com o Acervo</button>
         </div>
-      
+
+        <button className='btn btn-primary' type="button" onClick={() => navigate('/contato')}>Contribuir com o Acervo</button>
+      </div>
     </div>
   )
 }
