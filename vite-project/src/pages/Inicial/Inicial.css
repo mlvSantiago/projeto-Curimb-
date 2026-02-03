@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Paleta de cores*/
+:root {
+
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+}
+
+@font-face {
+    font-family: "FireSans";
+    src: url("../../assets/fonts/FiraSansCondensed-Regular.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    background: var(--white-tea);
+  
+    color: var(--forest-deep);
+    font-family: "FireSans", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+
+h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--forest-deep);
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+     margin-top: 20%;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--forest-deep);
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+   
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--eucalyptus);
+}
+
+a {
+    color: var(--rosemary);
+
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+a:hover {
+    color: var(--forest-deep);
+    border-bottom-color: var(--forest-deep);
+}
+
+.card-estilo {
+    background-color: var(--mint-cream);
+    color: var(--forest-deep);
+    padding: 80px 60px;
+    border-radius: 30px;
+    margin: 80px 0;
+    border: none;
+}
+
+.card-estilo h2 {
+    color: var(--forest-deep);
+    margin-bottom: 32px;
+}
+
+.card-estilo p {
+    color: var(--eucalyptus);
+    font-size: 18px;
+}
+
+.card-estilo a {
+    margin-top: 24px;
+    font-weight: 500;
+    color: var(--rosemary);
+}
+
+.seta{
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+.dados {
+    background-color: var(--sage-green);
+    width: 100%;
+    margin-top: 80px;
+    color: var(--white-tea);
+    padding: 90px;
+    margin-top:100px;
+
+}
+
+
+.dados h2 {
+    color: var(--white-tea);
+    margin-bottom: 32px;
+}
+
+.dados p {
+    color: var(--mint-cream);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.dados-num{
+    padding-top: 150px;
+   
+}
+.dados-num a{
+    font-size: 150px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colunas iguais */
+  gap: 100px; /* Espaço entre as colunas */
+}
+#pelosNumeros {
+    border-bottom: none;
+    color: var(--white-tea);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+#verPontos {
+    background-color: var(--forest-deep);
+    border: none;
+    color: var(--white-tea);
+    font-family: "FireSans", sans-serif;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 16px;
+}
+
+#verPontos:hover {
+    background-color: var(--rosemary);
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: var(--forest-deep);
+    border: none;
+    color: var(--white-tea);
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: var(--rosemary);
+    transform: translateY(-2px);
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .card-estilo,
+    .dados {
+        padding: 40px 30px;
+    }
+}
