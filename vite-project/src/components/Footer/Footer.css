@@ -1,0 +1,38 @@
+
+
+/*Paleta de cores*/
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+.estilo-footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--eucalyptus);
+    
+}
+.estilo-footer p{
+   
+    margin-left: auto;
+    padding-top: 40px;
+    color:var(--forest-deep)
+}
+.linha {
+  width: 60%;
+  height: 2px;
+  margin: 24px auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--forest-deep),
+    transparent
+  );
+}

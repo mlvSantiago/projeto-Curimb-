@@ -10,6 +10,7 @@ import Contato from './pages/Contato/Contato.jsx'
 
 //Componentes
 import Navbar from './components/Navbar/Navbar.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contato' element={<Contato></Contato>}></Route>
         
       </Routes>
+    <Footer/>
      
     </BrowserRouter>
   
