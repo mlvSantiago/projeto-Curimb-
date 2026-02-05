@@ -25,6 +25,229 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
+
+
+
+.dropdown-custom {
+    border: 1px solid var(--lavender-grey);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 0.5rem 0;
+    min-width: 220px;
+    margin-top: 0.5rem;
+    animation: slideDown 0.2s ease;
+    
+    /* ADICIONE ESTAS LINHAS */
+    max-height: 400px; /* Altura máxima */
+    overflow-y: auto; /* Scroll vertical */
+}
+
+/* Estilizar a scrollbar (opcional) */
+.dropdown-custom::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dropdown-custom::-webkit-scrollbar-track {
+    background: var(--lavender-grey);
+    border-radius: 10px;
+}
+
+.dropdown-custom::-webkit-scrollbar-thumb {
+    background: var(--sage-green);
+    border-radius: 10px;
+}
+
+.dropdown-custom::-webkit-scrollbar-thumb:hover {
+    background: var(--eucalyptus);
+}
+/* ===== SUBMENU LATERAL ===== */
+.dropdown-submenu > .submenu {
+    top: 0;
+    left: 100%;
+    margin-left: 0.25rem;
+    display: none;
+    position: absolute;
+}
+
+/* abrir no hover (desktop) */
+.dropdown-submenu:hover > .submenu {
+    display: block;
+}
+
+/* seta lateral */
+.dropdown-submenu > .dropdown-toggle::after {
+    float: right;
+    margin-top: 6px;
+    transform: rotate(-90deg);
+}
+
+/* mobile: abrir para baixo */
+@media (max-width: 991px) {
+    .dropdown-submenu > .submenu {
+        position: static;
+        margin-left: 1rem;
+    }
+}
+/* ===== dropdown principal ===== */
+.menu-dropdown {
+    position: relative;
+    cursor: pointer;
+   
+}
+
+.menu-dropdown-list {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    
+    max-height: 400px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.15);
+
+    list-style: none;
+    padding: .5rem 0;
+    min-width: 220px;
+
+    display: none;
+}
+/* barra de rolagem*/
+
+.menu-dropdown-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.menu-dropdown-list::-webkit-scrollbar-track {
+  background: white;
+}
+
+.menu-dropdown-list::-webkit-scrollbar-thumb {
+  background: var(--sage-green);
+  border-radius: 5px;
+}
+
+.menu-dropdown-list::-webkit-scrollbar-thumb:hover {
+  background: #e70000;
+}
+
+
+/* abrir */
+.menu-dropdown:hover > .menu-dropdown-list {
+    display: block;
+}
+
+/* itens */
+.menu-dropdown-list li {
+    position: relative;
+    padding: .6rem 1.2rem;
+    white-space: nowrap;
+
+   
+}
+
+.menu-dropdown-list li:hover {
+    background: var(--white-tea );
+}
+
+
+
+
+
+
+
+/* links */
+.menu-dropdown-list a {
+    color: var(--forest-deep);
+    text-decoration: none;
+}
+
+
+
+/* ===== SUBMENU ===== */
+/* ===== dropdown principal ===== */
+.menu-dropdown-list {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    
+    max-height: 400px; /* ou calc(100vh - 100px) para usar altura da tela */
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.15);
+    list-style: none;
+    padding: .5rem 0;
+    min-width: 220px;
+    display: none;
+}
+
+/* barra de rolagem */
+.menu-dropdown-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.menu-dropdown-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.menu-dropdown-list::-webkit-scrollbar-thumb {
+    background: var(--sage-green);
+    border-radius: 5px;
+}
+
+/* ===== SUBMENU - ABRE PARA BAIXO ===== */
+.submenu-item {
+    position: relative;
+    
+}
+
+
+.submenu-item > span {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submenu-item > .submenu-list {
+    position: static;  /*abre pra baixo*/
+    margin-left: 1.5rem; /* indentação */
+    margin-top: 0.25rem;
+    
+    background: var(--white-tea); /* fundo levemente diferente */
+    border:none;
+    
+    display: none;
+    padding: 0.25rem 0;
+    list-style: none;
+}
+
+.submenu-item:hover > .submenu-list,
+.submenu-item.open > .submenu-list { /* para mobile com clique */
+    display: block;
+}
+
+/* itens do submenu */
+.submenu-list li {
+    padding: 0.5rem 1rem;
+}
+
+.submenu-list li:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* separador */
+.menu-separator {
+    height: 1px;
+    background: var(--forest-deep);
+    margin: 0.5rem 1.2rem;
+    border: none;
+}
 /* ========== LOGO ========== */
 .logo-brand {
     font-size: 1.5rem;

@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Navbar.css'
 import '../../style/global.css'
 
@@ -26,44 +27,133 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="navbar-nav ms-auto d-flex gap-2 align-items-center">
                         {/* Dropdown de Pontos */}
-                        <div className="nav-item dropdown">
-                            <a 
-                                className="nav-link dropdown-toggle nav-link-custom" 
-                                href="#" 
-                                role="button" 
-                                data-bs-toggle="dropdown" 
-                                aria-expanded="false"
-                            >
-                                Pontos
-                            </a>
-                            <ul className="dropdown-menu dropdown-custom">
-                                <li>
-                                    <NavLink to="/pontos" className="dropdown-item">
-                                        <span className="dropdown-icon">📚</span>
-                                        Todos os Pontos
-                                    </NavLink>
-                                </li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li>
-                                    <NavLink to="/pontos" className="dropdown-item">
-                                        <span className="dropdown-icon">✨</span>
-                                        Irradiação
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/pontos" className="dropdown-item">
-                                        <span className="dropdown-icon">🙏</span>
-                                        Louvação
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/pontos" className="dropdown-item">
-                                        <span className="dropdown-icon">🌿</span>
-                                        Defumação
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </div>
+                       <li className="menu-dropdown">
+                        <span className="nav-link-custom">Pontos ▾</span>
+
+                        <ul className="menu-dropdown-list">
+                                 <li className="submenu-item">
+                                <span>Oxalá ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                              </li>
+                                 <li className="submenu-item">
+                                <span>Óxossi ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Jurema</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                                 <li className="submenu-item">
+                                <span>Ogum ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+
+                         
+                            <li className="submenu-item">
+                                <span>Iemanjá ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+
+                              <li className="submenu-item">
+                                <span>Oxum ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                              <li className="submenu-item">
+                                <span>Oxumaré ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                              <li className="submenu-item">
+                                <span>Iansã ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                              <li className="submenu-item">
+                                <span>Nanã ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                              <li className="submenu-item">
+                                <span>Ibejada ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                              <li className="submenu-item">
+                                <span>Xangô ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos">Passe/ Irradiação</NavLink></li>
+                                </ul>
+                            </li>
+                            <hr className="menu-separator"></hr>
+                            <li>
+                                <NavLink to="/pontos">Boiadeiros</NavLink>
+                            </li>
+                             <li>
+                                <NavLink to="/pontos">Caboclos</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/pontos">Exu</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/pontos">Ibejada</NavLink>
+                            </li>
+                             <li>
+                                <NavLink to="/pontos">Pretos Velhos</NavLink>
+                            </li>
+                        </ul>
+                    </li>
+
                         
                         <NavLink to="/geraPDF" className="nav-link nav-link-custom">
                             Gerar PDF

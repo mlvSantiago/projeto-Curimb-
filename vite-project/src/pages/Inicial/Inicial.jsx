@@ -27,6 +27,7 @@ export default function Inicial() {
   const irradiação = 170;
   const louvacao = 200;
   const defumacao = 50;
+  const qtPontos = irradiação + louvacao + defumacao;
 
   const orixas = [
     { nome: 'Oxalá', imagem: Oxala },
@@ -103,8 +104,15 @@ export default function Inicial() {
 
         <div className='card card-estilo hidden'>
           <h2 className='mb-3'>O que é o Curimbã?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus alias corrupti aliquid laboriosam dolores sequi! Dolorem porro fugiat nostrum id dicta eum minus? Facere velit dolorum minus magni incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nesciunt odio, magni suscipit non nihil perspiciatis veniam obcaecati modi molestiae hic porro nisi impedit necessitatibus ad animi quia eveniet?</p>
+          <p>O Curimbã é um espaço dedicado à preservação, ao estudo e à vivência do sagrado através da Curimba. <br></br>
+            Mais do que um simples acervo de pontos cantados cheios de força e fundamento para nossas giras, o site nasce com o propósito de auxiliar e fortalecer o aprendizado daqueles que trilham o caminho da Curimba, seja por devoção, estudo ou formação dentro da escola de curimba.<br></br>
+            Aqui, o aprendizado é entendido como parte essencial do fazer religioso: aprender a cantar, compreender o fundamento dos pontos, respeitar suas linhas e reconhecer sua importância espiritual.<br></br>
+            O site reúne mais de {qtPontos} pontos, incluindo pontos de Orixás para defumação, irradiação, passe e louvação, além de pontos das diversas linhas trabalhadas na Umbanda, servindo como apoio contínuo para quem busca conhecimento, prática consciente e preservação da tradição.</p>
           <img src={minhaImagem} alt="Curimba Seara Espiritualista Falangeiros da Aruanda" className='foto-curimba' />
+
+          <p className='mt-3'>
+            Curimbã nos lembra que curimba é exercício diário. É compromisso sério que deve ser estudado, assim como a escola de caboclo Mirim nos ensina.
+          </p>
 
           <a href="https://tendaespiritamirim.com.br/institucional/sobre-nos/">
             Conheça a nossa doutrina <i className="bi bi-arrow-right"></i>
