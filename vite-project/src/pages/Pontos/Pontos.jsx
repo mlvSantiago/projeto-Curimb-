@@ -40,27 +40,31 @@ export default function Pontos(){
                     </button>
                 </div>
             </div>
-
+            {/*Fundo*/ }
             <div className="saudacao-orixa">
                 <div className='teste'>
                     <h1>{orixa.saudacao}</h1>
                     <h4>{orixa.nome}</h4>
                    
-
-       
-                 
-                    
-
                 </div>
             </div>
+
+            
             {pontos.length == 0? (
                 <p>Nenhum ponto encontrado</p>
             ):(
 
                 pontos.map((p) =>
-                    <div>
+                    <div className ="container-ponto">
+
+                        <p class = "nome-ponto">{p.nome}</p>
                         
-                        <p>{p.ponto}</p>
+                        
+                        <p className="texto-ponto">{p.ponto}</p>
+                        <div className="salvar-ponto">
+
+                            <button type="button"><i class="bi bi-bookmark btn-salvar-ponto"></i></button>
+                        </div>
 
                     </div>
                 )

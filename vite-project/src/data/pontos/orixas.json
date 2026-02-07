@@ -15,8 +15,103 @@
             "nome": "Oxóssi",
             "saudacao": "Oke Arô Oxóssi",
             "tiposPontos": {
-                "defumacao": [],
-                "firmeza": [],
+                "defumacao": [
+                    {
+                        "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Sete folhas da jurema\nCheirou Guiné\n\nVem defumando essa banda\nPros filhos de fé\n"
+                    },
+                    {
+                        "id":2,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Entrei nas matas e pedi\nQue a Jurema desse folhas para mim\n\nEla me deu, e aqui estou\nCom as ervas da Jurema fazendo defumador\n\nEu defumo, eu defumo\nVamos defumar\nEu defumo, eudefumo\nCom as ervas de Oxalá"
+                    },
+                    {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Sete estrelas lá na mata é um caboclo caçador\nVem chamando os seus filhos\nPra fazer defumador\n\nCruza o nosso terreiro\nCom as ervas da Jurema\n\nDefumando com arruda,alecrim e alfazema\n"
+                    },
+                    {
+                        "id":4,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Defuma com as ervas da Jurema\nDefuma com arruda e guiné\n\nCom beijoim, alecrim e alfazema\nVamos defumar filhos de fé"
+                    }
+                ],
+                "firmeza": [
+                {
+                    "id":1,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Caboclo veio da mata\nPara Oxosse, saravá\nSaravá Oxosse, saravá\nSaravá Oxosse, sarava."
+                },
+                {
+                    "id":2,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Ao romper da aurora o dia clareou\nAÍ vem Sucurussi que alguém chamou\nE na fé de Oxalá que ele vem, vem, vem\nCom sua falange trabalhar pro bem."
+                },
+                {
+                    "id":3,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Cantou, cantou\nOs passarinhos cantou\nAnunciando nas matas\nQue Oxosse chegou\nChegou com a força da. Jurema\nVem cumprindo a lei suprema\nQue Pai Oxalá mandou\nE hoje, Sua mata estd em festa\nEle é o Rei da floresta\nPai Oxosse é caçador"
+                },
+                {
+                    "id":4,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Quem manda na mata é Oxosse\nOxosse é caçador, Oxosse é caçador\nEu vi meu Pai assoviar, Ele mandou chamar \nVem de Aruanda auê, vem de Aruanda auê\nTados os Caboclos de Umbanda vem de Aruanda auê.\n"
+                },
+                {
+                    "id":5,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Lua, que clareia o mundo\nQue clareia a terra e o mar\nClareia as matas de Oxosse, cidade da Jurema\nClareia os caminhos que os Caboclos vão passar\nPara vir na Urnbanda trabalhar\nClareia ó luar, clareia\nClareia a Umbanda e este Jacuta\nOh! Lua..."
+                },
+                {
+                    "id":6,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Vinha caindo uma folha ce guiné\nUma pomba juriti atraida por uma cobra sucuri\nMeu Pai Oxosse é caçador\nAquela cobra ele matou\nE a Juriti bateu asas e vaou\nOi Caboclo na mata é caçador, Oi Caboclo na mata é caçador\ndor, Oi Caboclo na mata é caçador.\nOi Caboclo na mata é caçador\nÉ caçador"
+                },
+                {
+                    "id":7,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Eu sou da mata, oi que mata é a sua\nOi que mata é a sua, é de lá ou é de cá\nAonde pia cobra, aonde tanta o sabiá\nEu sou da mata, sou da tribo dos Cajás\nMinha falange para vir descarregar."
+                },
+                {
+                    "id":8,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Foi Zambi quem criou o Mundo\nE Zambi quem vai governar\nFoi Zambi quem criou a Lua\nQue clareia Oxosse lá na Jurema\nOké, Oké, Okê, Oké meusa Caboclos, Oké\nA Umbanda gira, gira, gira aué, a Umbanda gira, gira, gira"
+                },
+                {
+                    "id":9,
+                    "nome":"",
+                    "audio": "",
+                    "compositor": "Desconhecido",
+                    "ponto":"Olha a gira que gira aué\nÉ a gira que vai girar\nOlha a gira que gira que gira aué\nÉ a gira de Oxosse que, vai girar\nOlha a gira que gira que gira aué\nEa gira na mata que vai girar."
+                }
+
+
+                ],
                 "louvacao": [
                     {
                         "id": 1,
@@ -27,14 +122,442 @@
                     },
                     {
                         "id": 2,
-                        "nome": "O rei das matas",
-                        "audio": "",
+                        "nome": "O Rei Das Matas",
+                        "audio": "Desconhecido",
                         "compositor": "Sandro Luiz",
-                        "ponto": "Sou filho do guerreiro de uma flecha só Sou filho de Oxossi caçador E todo bom guerreiro não anda só Tem sempre um irmão merecedor O Rei das Matas O meu protetor O Rei das Matas O meu protetor Sarava meu pai Oxossi Sua bênção meu senhor Oke Arô Sou filho do guerreiro de uma flecha só Sou filho de Oxossi caçador Ele é mensageiro do Pai maior E cumpre sua missão com muito amor O Rei das Matas O meu protetor O Rei das Matas O meu protetor Sarava meu pai Oxossi Sua bênção meu senhor Oke Arô"
+                        "ponto": "Sou filho do guerreiro de uma flecha só\nSou filho de Oxossi caçador\nE todo bom guerreiro não anda só\nTem sempre um irmão merecedor\nO Rei das Matas\nO meu protetor\n\nO Rei das Matas\nO meu protetor\n\nSarava meu pai Oxossi\nSua bênção meu senhor\nOke Arô"
+                    },
+                    {
+                        "id": 3,
+                        "nome": "Atira, atira, eu atirei",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Atira, atira, eu atirei num gambá\nEu vai atirar '\nVeado no mato é corredor\nOxosse na mata é caçador\nA mata está em festa-\nTem flores neste Gonga."
+                    },
+                    {
+                        "id": 4,
+                        "nome": "O Rei Das Matas",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Caboclo veio da mata\nPara Oxosse, saravá\nSaravá Oxosse, saravá\nSaravá Oxosse, sarava."
+                    },
+                    {
+                        "id": 5,
+                        "nome": "Cantou, cantou",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto": "Cantou, cantou\nOs passarinhos cantou\nAnunciando nas matas\nQue Oxosse chegou\nChegou com a força da. Jurema\nVem cumprindo a lei suprema\nQue Pai Oxalá mandou\nE hoje, Sua mata estd em festa\nEle é o Rei da floresta\nPai Oxosse é caçador"
+
+                    },
+                    {
+                        "id": 6,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Estrela matutina\nClareia o mundo sem parar\nUmbanda diz que meu pai é Caboclo\nEré, ré, ré, rê, ra."
+                    },
+                    {
+                        "id": 7,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Caboclo a Sua mata é linda\nE verde da cor do mar\nArreia Caboclo, arreia Caboclo, arreia Caboclo\nE Jurema."
+                    },
+                    {
+                        "id": 8,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Caboclo, Caboclo\nEle é filho da guiné\nSe meu Pai é Rei\nEle é Principe é."
+                    },
+                    {
+                        "id": 9,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Tatá, Tata de Umbanda\nChefe de sete Gongá\nQuando ele vem\nQuando ele vem da Sua. aldeia\nEle vem dando o seu brado\nChamando Cobra Coral."
+                    },
+                    {
+                        "id": 10,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Ele veio de tão longe para saravá o endá\nBendito, louvado seja\nEla é o Rei do Paniai\nBate o bumbo lá na aldeia é a.\nBate o bumbo lá na aldeia ê a."
+                    },
+                    {
+                        "id": 11,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Caçador na beira do caminho\nNão me mate essa coral na estrada\nEl abandonou sua choupana, caçador\nFoi ao romper da madrugada."
+                    },
+                    {
+                        "id": 12,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Rei da mata me disse na mata\nQue na mata ndo tinha Caboclo\nArreia Caboclo, aireia\nArreia que eu quero ver."
+                    },
+                    {
+                        "id": 13,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Rei da mata me disse na mata\nQue na mata ndo tinha Caboclo\nArreia Caboclo, aireia\nArreia que eu quero ver."
+                    },
+                    {
+                        "id": 14,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Coqué, coqué, coquê, odé\nTá no coqué, odé\nMau Caboclo tá no coquê, odé\nTa no coqué, odé."
+                    },
+                    {
+                        "id": 15,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Olha o meu passarinho azulão\nEle voa não pousa no chão\nOh! Que lindo Caboclo de pena\nCom pele de ema e bodoque na mão."
+                    },
+                    {
+                        "id": 16,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Oxosse está\nNo mussambê\nOxosse está no mussambê\nTa no mussambê, tá no mussambê\nTá no mussambê, tá no mussambé"
+                    },
+                    {
+                        "id": 17,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Se a coral é sua cinta\nA jibóia é sua laço\nO kizôa, kizda, kizda ê\nCaboclo mora na mata."
+                    },
+                    {
+                        "id": 18,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Caçador de uruba veio caçar\nCaçador de urubá ê á\nCaça, caça, ubá, ubá\nEle vem caçar ubá, ubá."
+                    },
+                    {
+                        "id": 19,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Se meu Pai é Caboclo\nEu quero ver, bambeia quiné\nBambé, bambeia o bambea\nÔ bambeia guiné."
+                    },
+                    {
+                        "id": 20,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "A lua vai sumindo e vem rompendo a aurora\nClareia uma choupana aonde Oxosse mora\nOi clareou, oi clareou uma choupana aonde Oxosse mora."
+                    },
+                    {
+                        "id": 21,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "A mata está em festa, Seu Gongá esta todo em flor\nPassarinho cantando em Seu louvor\nSucuri piou, piou, piou\nSucuri piou, piou, piou\nSucuri piou, quando Oxosse aqui chegou."
+                    },
+                    {
+                        "id": 22,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Ele é de lei, Fle é de lei, Ele é de lei\nOxosse bamba no maracatu\nQue bambá o clima\nBamba no maracatu, Oxosse."
+                    },
+                    {
+                        "id": 23,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Quem manda na mata é Oxosse\nOxosse é caçador, Oxosse é caçador\nEu vi meu Pai assoviar, Ele mandou chamar \nVem de Aruanda auê, vem de Aruanda auê\nTados os Caboclos de Umbanda vem de Aruanda auê.\n"
+                    },
+                    {
+                        "id": 24,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Vinha caindo uma folha ce guiné\nUma pomba juriti atraida por uma cobra sucuri\nMeu Pai Oxosse é caçador\nAquela cobra ele matou\nE a Juriti bateu asas e vaou\nOi Caboclo na mata é caçador, Oi Caboclo na mata é caçador\ndor, Oi Caboclo na mata é caçador.\nOi Caboclo na mata é caçador\nÉ caçador"
+
+                    },
+                    {
+                        "id": 25,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Na boca da mata vi couro gemer\nVi couro gemer, vi zunga falar\nE os Caboclos faziam zum zum."
+                    },
+                    {
+                        "id": 26,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Oxossi é rei no céu\nOxossi é rei na terra\nEle não desce do céu sem coroa\nSem a sua matula de guerra"
+                    },
+                    {
+                        "id": 27,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Naquela estada de areia, acnde a Lua clareou\nTodos os Caboclos paravam\nPara ver a procissão de São Sebastião\nOkê Caboclo, okê, okê Caboclo\nSalve Oxosse, Viva São Sebastião."
+                    },
+                    {
+                        "id": 28,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Vestimenta de caboclo é samambaia\nÉ samambaia, é samambaia\nSaia Caboclo, não se atrapalha\nSaia do meu Samambaia,"
+                    },
+                    {
+                        "id": 29,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Na boca da mata eu vi uma visão\nO Caboclo dizia que não\nOlha lirio como lírio é, olha lírio como lírio é\nOlha lirio corno lirio é, Sua banda só cheira & guiné."
+                    },
+                    {
+                        "id": 30,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto": "Okê Bomboclima\nOxosse é caçador\na Sua mata é longe\nÉ corre sem parar --Oxosse é Tatamirô, é Tatamirô\nOxosse é Tatamirô."
+                    },
+                    {
+                        "id": 31,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Caboclo da Sete Jibóias",
+                        "ponto":"Tambores que zoam na mata\nOxóssi diz são Mensageiros\nToda palma que vem lá da mata\nEle diz são Feiticeiros\nNão tenha medo meu filho\nTem povo na mata prá ver o que é\nToda palma que vem do terreiro\nE de filho Guerreiro\nÉ de filho de fé."
+                    },
+                    {
+                        "id": 32,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"O seu Oxosse é um Caboclo de Umbanda\nQuando vem lá de Aruanda saravá o Endá\nE Orirê, é Orirê, saravá o Endá."
+                    },
+                    {
+                        "id": 33,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Foi Zambi quem criou o Mundo\nE Zambi quem vai governar\nFoi Zambi quem criou a Lua\nQue clareia Oxosse lá na Jurema\nOké, Oké, Okê, Oké meusa Caboclos, Oké\nA Umbanda gira, gira, gira aué, a Umbanda gira, gira, gira"
+                    },
+                    {
+                        "id": 34,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Olha a gira que gira aué\nÉ a gira que vai girar\nOlha a gira que gira que gira aué\nÉ a gira de Oxosse que, vai girar\nOlha a gira que gira que gira aué\nEa gira na mata que vai girar."
+                    },
+                    {
+                        "id": 35,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Se meu Pai é Caboclo\nEu quero ver bambeia oi! Guiné\nBambei bambeia, Oi! Bambeia\nOi!Bambeia oi! Guiné."
+                    },
+                    {
+                        "id": 36,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Atira, atira, atira, Ele atirou pro ar\nEle atirou, mas não matou, Ele atiro"
+                    },
+                    {
+                        "id": 37,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Folhas brancas da palmeira como brilham ao luar\nOh! Que lindo caçador, caçador da Jurema é Jurema."
+                    },
+                    {
+                        "id": 38,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caça, caça, caçador\nComo é lindo o seu caçar\nCaça, caça, caçador\nO caçador da Juremá."
+                    },
+                    {
+                        "id": 39,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Rei caçador, Rei caçador ô\nRei caçador lá da Jurema\nEle veio de tão longe\nEle vem caçar a ema."
+                    },
+                   {
+                        "id": 40,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Ele atirou, Ele atirou ninguém viu\nO Seu Oxosse é quem sabe aonde a flecha caiu."
+                    },
+                    {
+                        "id": 41,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Todo pássaro de pena voa, a ema não\nA ema é um bicho de pena\nA ema não sabe voar\nA ema é um bicho de Oxosse\nCaçador da Jurema."
+
+                    },
+                    {
+                        "id": 42,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Eu nunca vi esse Gongá tremer\nQuem tem sangue de Caboclo\nAgora que eu quero ver."
+                    },
+                    {
+                        "id": 43,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caboclo roxo da cor morena\nEle é Oxosse, é Cassuté lá da Jurema\nEle jurou e tornou a jurar\nDe ouvir os conselhos que a Jurema veio lhe dar."
+                    },
+                    {
+                        "id": 44,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Que maldade que fizeram com você\nLhe amarraram numa árvore pelos pés e pelas mãos\nLhe atiraram uma flecha no centro do coração\nDiz o nome do Santo, Ele é São Sebastião, Ele é São Sebastião."
+                    },
+                    {
+                        "id": 45,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Estremeceu a mata virgem, cidade da Jurema\nOxosse chegou no reino, saravou seus filhos, saravou Gongá"
+                    },
+                    {
+                        "id": 46,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Viva Oxosse iê, meu São Sebastião\nOxosse é Rei da mata, morador lá do sertão\nOxosse é Rei da mata, morador lá do sertão\nViva Oxosse iê, meu São Sebastião."
+                    },
+                    {
+                        "id": 47,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Ele é Caboclo da banda de lá\nQuando vê a cobra, corre prá matar\nEle atirou sua flecha, mas errou\nEle atirou a sua flecha de indaiá\nSentou-se na areia e pôs-se a chorar\nQuando vê a cobra corre prá matar."
+                    },
+                    {
+                        "id": 48,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Não há mata que Ele não entre, não há pau que Ele não suba\nQual é esse passarinho que a sua bodoque não derruba?\nChô, chô, chô, passarinho é de morel\nChô, chô, chô, passarinho é de Nagô!"
+                    },
+                    {
+                        "id": 49,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Ele atirou, Ele atirou ninguém viu\nO Seu Oxosse é quem sabe aonde a flecha caiu."
                     }
+                
+
                 ],
-                "passeIrradiacao": [],
-                "transicao": []
+
+                "passeIrradiacao": [
+                    {
+                        "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Na mata virgem um clarão apareceu\nEra Oxosse quem passava\nOrando pros filhos seus\nSaravé Oxosse, Sarava Jurema\nSarava as matas, Sarava a Lei Suprema."
+                    },
+                    {
+                        "id":2,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caçador de uruba veio caçar\nCaçador de urubá ê á\nCaça, caça, ubá, ubá\nEle vem caçar ubá, ubá."
+                    },
+                    {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Oxossi lá da Juremá\nManda folhas cá pra nós\nMas que Caboclo bom, ai ai\nManda folha cá pra nós."
+                    },
+                    {
+                        "id":4,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Oxossi vem das matas para abençoa\nSeus filhos de Umbanda querem se curar\nMandai as folhas verdes lá do mussambê\nOxossi, Rei das matas venha nos valer"
+                    },
+                    {
+                        "id":5,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Eu sou da mata, oi que mata é a sua\nOi que mata é a sua, é de lá ou é de cá\nAonde pia cobra, aonde tanta o sabiá\nEu sou da mata, sou da tribo dos Cajás\nMinha falange para vir descarregar."
+                    },
+                    {
+                        "id":6,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Por que choras, filho de Umbanda\nSe os anjos dizem, dizem amém\nÉ madrugada fria\nSeu Oxosse anuncia dias melhores virão."
+                    },
+                    {
+                        "id":7,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Caboclo da Sete Jibóias",
+                        "ponto":"Tambores que zoam na mata\nOxóssi diz são Mensageiros\nToda palma que vem lá da mata\nEle diz são Feiticeiros\nNão tenha medo meu filho\nTem povo na mata prá ver o que é\nToda palma que vem do terreiro\nE de filho Guerreiro\nÉ de filho de fé."
+                    },
+                    {
+                        "id":8,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caça, caça, caçador\nComo é lindo o seu caçar\nCaça, caça, caçador\nO caçador da Juremá."
+                    },
+                    {
+                        "id":9,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caboclo bom, Caboclo bom, Ele vem de Aruanda\nCaboclo bom, Caboclo bom, que trabalha na Umbanda\nEu tenho fé na Virgem Maria\nQue a Estrela Dalva há de ser a nossa guia."
+                    },
+                    {
+                        "id":10,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Caboclo roxo da cor morena\nEle é Oxosse, é Cassuté lá da Jurema\nEle jurou e tornou a jurar\nDe ouvir os conselhos que a Jurema veio lhe dar."
+
+                    },
+                    {
+                        "id":11,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Que maldade que fizeram com você\nLhe amarraram numa árvore pelos pés e pelas mãos\nLhe atiraram uma flecha no centro do coração\nDiz o nome do Santo, Ele é São Sebastião, Ele é São Sebastião."
+                    }
+
+
+                ],
+                "transicao": [
+                    {
+                        "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Iemanjá",
+                        "ponto":"Mas como é lindo o pisar dos Caboclos\nEles pisam na trilha, no rastro dos outros\nSalve Iemanja, salve a Sereia\nSalve os Caboclos, brincando na areia."
+                    }
+
+
+
+                ]
             }
         },
         "ogum": {
