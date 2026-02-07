@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Paleta de cores*/
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+
+
+/* No seu App.css ou arquivo global */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1; /* Ocupa todo espaço disponível */
+}
+
+/* Footer.css */
+.estilo-footer {
+    width: 100%;
+    min-height: 100px; /* use min-height em vez de height */
+    background-color: var(--eucalyptus);
+    margin-top: auto; /* empurra para o final */
+}
+
+.estilo-footer p {
+    padding-top: 40px;
+    color: var(--forest-deep);
+    margin: 0;
+}
+
+.linha {
+    width: 60%;
+    height: 2px;
+    margin: 24px auto;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--forest-deep),
+        transparent
+    );
+}

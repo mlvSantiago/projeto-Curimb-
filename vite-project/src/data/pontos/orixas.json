@@ -1,0 +1,142 @@
+{
+    "orixa": {
+        "oxala": {
+            "nome": "Oxalá",
+            "saudacao": "Epa Babá Oxalá",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "oxossi": {
+            "nome": "Oxóssi",
+            "saudacao": "Oke Arô Oxóssi",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [
+                    {
+                        "id": 1,
+                        "nome": "Senhor das Matas",
+                        "audio": "",
+                        "compositor": "Getulio Braga",
+                        "ponto": "Ó senhor das matas,\nNesta sua paz, eu vou me abrigar,\nSob um sol de igualdade\nVou sentir liberdade\nCom o senhor vou caçar.\nVou parar nesse verde de Oxóssi\nEsperança pra mim\nEntre folhas caindo\nPé no chão vou seguindo\nEu vou viver.\n\nAcordar quando o sol no horizonte nascer\nMe banhar em seus rios\nLiberto a correr\nFolhas verdes no frio irão me guardar\nSanta paz de Oxóssi\nVai me acompanhar.\n\nAcordar quando o sol no horizonte nascer\nMe banhar em seus rios\nLiberta correr\nFolhas verdes no frio irão me guardar\nSanta paz de Oxóssi\nVai me acompanhar\n"
+                    },
+                    {
+                        "id": 2,
+                        "nome": "O rei das matas",
+                        "audio": "",
+                        "compositor": "Sandro Luiz",
+                        "ponto": "Sou filho do guerreiro de uma flecha só Sou filho de Oxossi caçador E todo bom guerreiro não anda só Tem sempre um irmão merecedor O Rei das Matas O meu protetor O Rei das Matas O meu protetor Sarava meu pai Oxossi Sua bênção meu senhor Oke Arô Sou filho do guerreiro de uma flecha só Sou filho de Oxossi caçador Ele é mensageiro do Pai maior E cumpre sua missão com muito amor O Rei das Matas O meu protetor O Rei das Matas O meu protetor Sarava meu pai Oxossi Sua bênção meu senhor Oke Arô"
+                    }
+                ],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "ogum": {
+            "nome": "Ogum",
+            "saudacao": "Patakori Ogum",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "iemanja": {
+            "nome": "Iemanjá",
+            "saudacao": "Odoyá Iemanjá",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [
+                    {
+                        "id": 1,
+                        "nome": "Rainha do Mar",
+                        "audio": "",
+                        "compositor": "Adilson",
+                        "ponto": "Brilha o sol, canta o Rouxinol,\nEu olho o céu o infinito aonde o azul é bonito eu saravá Oxalá,\nRios montes e cascatas eu olho o verde das matas,\nSinto a paz que a natureza traz,\nE o mar com a sua beleza, seu poder sua grandeza eu imploro a Iemanjá\nO mãe d'água rainha sereia do mar, segura a banda e ilumina este gongar."
+                    }
+                ],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "oxum": {
+            "nome": "Oxum",
+            "saudacao": "Ora iê iê ô Oxum",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "oxumare": {
+            "nome": "Oxumaré",
+            "saudacao": "Arroboboi Oxumarê!",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "iansa": {
+            "nome": "Iansã",
+            "saudacao": "Eparrey Bela Oya",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "nana": {
+            "nome": "Nanã",
+            "saudacao": "Saluba, Nanã",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+        "xango": {
+            "nome": "Xangô",
+            "saudacao": "Kâo Kabecilê Xangô",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [
+                    {
+                        "id": 1,
+                        "nome": "Meu pai meu senhor",
+                        "audio": "",
+                        "compositor": "",
+                        "ponto": "Meu pai meu senhor, de joelhos eu pesso a ti pai Xangô, que me mande a faísca de um raio divino protegei\nmeu terreiro de um mau protetor\nEu vi chover chover, vento que balanceô balanceô vento bateu na pedreira foi de encontro a cachoeira água rolou."
+                    }
+                ],
+                "passeIrradiacao": [
+                    {
+                        "id": 1,
+                        "nome": "Meu pai meu senhor",
+                        "audio": "",
+                        "compositor": "",
+                        "ponto": "Meu pai meu senhor, de joelhos eu pesso a ti pai Xangô, que me mande a faísca de um raio divino protegei\nmeu terreiro de um mau protetor\nEu vi chover chover, vento que balanceô balanceô vento bateu na pedreira foi de encontro a cachoeira água rolou."
+                    }
+                ],
+                "transicao": []
+            }
+        }
+    }
+}

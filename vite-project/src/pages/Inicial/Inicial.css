@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Paleta de cores*/
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+
+@font-face {
+    font-family: "FireSans";
+    src: url("../../assets/fonts/FiraSansCondensed-Regular.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    background: var(--white-tea);
+    color: var(--forest-deep);
+    font-family: "FireSans", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--forest-deep);
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    margin-top: 20%;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--forest-deep);
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--eucalyptus);
+}
+
+a {
+    color: var(--rosemary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+/* ============================================
+   Imagens Orixas
+   ============================================ */
+
+.galeria-orixas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card-orixa {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.card-orixa:hover {
+  transform: translateY(-8px);
+
+}
+
+.card-orixa img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card-orixa img:hover{
+      box-shadow: 0 4px 12px rgb(45, 62, 54);
+
+}
+
+.card-orixa h3 {
+  margin-top: 0.75rem;
+  text-align: center;
+  color: var(--forest-deep);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* ============================================
+   CARD ESTILO
+   ============================================ */
+
+.foto-curimba {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-estilo {
+    background-color: var(--mint-cream);
+    color: var(--forest-deep);
+    padding: 80px 60px;
+    border-radius: 30px;
+    margin: 80px 0;
+    border: none;
+}
+
+.card-estilo h2 {
+    color: var(--forest-deep);
+    margin-bottom: 32px;
+}
+
+.card-estilo p {
+    color: var(--eucalyptus);
+    font-size: 18px;
+}
+
+.card-estilo a {
+    margin-top: 24px;
+    font-weight: 500;
+    color: var(--rosemary);
+}
+
+/* ============================================
+   SEÇÃO DADOS (Pelos Números)
+   ============================================ */
+.dados {
+    background-color: var(--sage-green);
+    width: 100%;
+    padding: 90px;
+    margin-top: 100px;
+}
+
+/* Grid de 2 colunas */
+.dados .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Coluna esquerda - Texto descritivo */
+.dados .item h2 {
+    color: var(--white-tea);
+    margin-bottom: 32px;
+}
+
+.dados .item p {
+    color: var(--mint-cream);
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+#pelosNumeros {
+    border-bottom: none;
+    color: var(--white-tea);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+/* Coluna direita - Números */
+.dados-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* Cards de números */
+.dados-num .principal,
+.dados-num .sub {
+    text-align: center;
+    color: var(--golden-bronze); /* ← Texto na mesma cor dos números */
+}
+
+/* Número grande */
+.dados-num .principal .numero-destaque {
+    font-size: 180px;
+    font-weight: 700;
+    color: var(--golden-bronze);
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.dados-num .principal {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Números menores */
+.dados-num .sub .numero-destaque {
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--golden-bronze);
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.dados-num .sub {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.dados-num .sub:last-child {
+    margin-bottom: 0;
+}
+
+/* Container dos números menores */
+.dados-num-secundarios {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ============================================
+   BOTÕES
+   ============================================ */
+#verPontos {
+    background-color: var(--forest-deep);
+    border: none;
+    color: var(--white-tea);
+    font-family: "FireSans", sans-serif;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 16px;
+}
+
+#verPontos:hover {
+    background-color: var(--rosemary);
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: var(--forest-deep);
+    border: none;
+    color: var(--white-tea);
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: var(--rosemary);
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   RESPONSIVIDADE
+   ============================================ */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+        margin-top: 10%;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .card-estilo {
+        padding: 40px 30px;
+    }
+    
+    .dados {
+        padding: 40px 30px;
+    }
+    
+    .dados .grid-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .dados-num {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .dados-num .principal .numero-destaque {
+        font-size: 120px;
+    }
+    
+    .dados-num .sub .numero-destaque {
+        font-size: 60px;
+    }
+}
