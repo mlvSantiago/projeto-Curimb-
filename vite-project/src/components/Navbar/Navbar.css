@@ -225,7 +225,9 @@
     display: none;
     padding: 0.25rem 0;
     list-style: none;
+    
 }
+
 
 .submenu-item:hover > .submenu-list,
 .submenu-item.open > .submenu-list { /* para mobile com clique */

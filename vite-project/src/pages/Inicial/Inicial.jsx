@@ -31,7 +31,7 @@ export default function Inicial() {
 
   const orixas = [
     { nome: 'Oxalá', imagem: Oxala },
-    { nome: 'Oxossi', imagem: Oxossi },
+    { nome: 'Oxóssi', imagem: Oxossi },
     { nome: 'Ogum', imagem: Ogum },
     { nome: 'Iemanjá', imagem: Iemanja },
     { nome: 'Oxum', imagem: Oxum },
@@ -39,7 +39,7 @@ export default function Inicial() {
     { nome: 'Iansã', imagem: Iansã },
     { nome: 'Nanã', imagem: Nanã },
     { nome: 'Xangô', imagem: Xango },
-    { nome: 'Povo Trabalhador', imagem: Exu },
+    { nome: 'PovoTrabalhador', imagem: Exu },
   ];
 
 
@@ -73,8 +73,8 @@ export default function Inicial() {
   }, []); // Array vazio significa que executa apenas uma vez após a montagem
 
   return (
-    <div className='fundo-inicial hidden'>
-      <div className='container margens'>
+    <div className='hidden'>
+      <div className='container '>
         <div className='mb-5 mt-5 '>
           <h1 className='mb-3'>
             Tecnologia a serviço do sagrado
@@ -91,9 +91,10 @@ export default function Inicial() {
       
         <div className="galeria-orixas">
         {orixas.map((orixa, index) => (
+  
           <Link 
             key={index} 
-            to="/pontos" 
+            to={"/pontos/"+orixa.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')} 
             className="card-orixa"
           >
             <img src={orixa.imagem} alt={orixa.nome} />

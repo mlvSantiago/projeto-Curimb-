@@ -18,7 +18,8 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path="/" element={<Inicial/>} />
-        <Route path="/pontos" element={<Pontos></Pontos>}></Route>
+        <Route path="/pontos/:tipo" element={<Pontos/>}/>
+        <Route path="/pontos/:tipo/:subtipo" element={<Pontos/>}/>
         <Route path='/geraPDF' element={<GeraPdf></GeraPdf>}></Route>
         <Route path='/contato' element={<Contato></Contato>}></Route>
         

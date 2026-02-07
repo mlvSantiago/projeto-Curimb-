@@ -1,0 +1,121 @@
+:root {
+  --sage-green: #8b9d83;
+  --mint-cream: #f4f7f5;
+  --eucalyptus: #5f7a6e;
+  --forest-deep: #2d3e36;
+  --lavender-grey: #e8ebe9;
+  --clay: #a78b71;
+  --white-tea: #e8f7e0;
+  --rosemary: #4a5d52;
+  --chamomile: #d4d9d1;
+  --golden-bronze: #e2b753;
+}
+
+@font-face {
+  font-family: "FireSans";
+  src: url("../../assets/fonts/FiraSansCondensed-Regular.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "FireSans", -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  background: var(--white-tea);
+  color: var(--forest-deep);
+  min-height: 100vh;
+
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========== BARRA DE PESQUISA ========== */
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-pesquisa {
+  font-size: small;
+  color: rgb(96, 92, 92);
+  height: 40px;
+  width: 400px;
+  padding: 12px 50px 12px 15px; 
+  border: 2px solid var(--chamomile);
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.input-pesquisa:hover {
+
+}
+
+.input-pesquisa:focus {
+   border: 2px solid var(--sage-green);
+}
+
+.btn-pesquisa {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-pesquisa:hover {
+  transform: translateY(-48%) scale(1.1);
+}
+
+.lupa-pesquisa {
+  color: var(--forest-deep);
+  font-size: 18px;
+}
+
+/* ========== FILTRO ========== */
+
+
+
+.saudacao-orixa{
+   
+    padding-bottom:  60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.saudacao-orixa  h1 {
+    color: rgba(45, 62, 54, 0.1);
+   
+    font-size: 80px;
+    margin-bottom: 16px;
+    
+}
+
+.saudacao-orixa h4{
+    color: var(--forest-deep);
+    font-size: 24px;
+    color: rgba(45, 62, 54, 0.1);
+}
+
+
+.testee{
+    background-color: yellow;
+}
