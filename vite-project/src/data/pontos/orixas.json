@@ -3,6 +3,7 @@
         "oxala": {
             "nome": "Oxalá",
             "saudacao": "Epa Babá Oxalá",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -14,6 +15,7 @@
         "oxossi": {
             "nome": "Oxóssi",
             "saudacao": "Oke Arô Oxóssi",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [
                     {
@@ -563,6 +565,7 @@
         "ogum": {
             "nome": "Ogum",
             "saudacao": "Patakori Ogum",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -574,6 +577,7 @@
         "iemanja": {
             "nome": "Iemanjá",
             "saudacao": "Odoyá Iemanjá",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -593,6 +597,7 @@
         "oxum": {
             "nome": "Oxum",
             "saudacao": "Ora iê iê ô Oxum",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -604,6 +609,7 @@
         "oxumare": {
             "nome": "Oxumaré",
             "saudacao": "Arroboboi Oxumarê!",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -615,6 +621,7 @@
         "iansa": {
             "nome": "Iansã",
             "saudacao": "Eparrey Bela Oya",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -626,6 +633,7 @@
         "nana": {
             "nome": "Nanã",
             "saudacao": "Saluba, Nanã",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -637,6 +645,7 @@
         "xango": {
             "nome": "Xangô",
             "saudacao": "Kâo Kabecilê Xangô",
+            "ferramenta":"../../assets/img/ferramentas/ofá.png",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],

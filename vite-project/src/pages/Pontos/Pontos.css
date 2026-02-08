@@ -120,6 +120,11 @@ body {
 /*PONTOS*/
 .texto-ponto {
   white-space: pre-line;
+  color: var(--forest-deep);
+
+  margin-left: 40px;
+
+  
 }
 
 .container-ponto{
@@ -132,6 +137,8 @@ body {
     padding-bottom: 60px;
 
     margin-bottom: 60px;
+    
+  
 
     background-color: var(--mint-cream);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
@@ -142,5 +149,29 @@ body {
     background-color: transparent;
     border:none;
 
+    margin-right: 50px;
+
+
 }
 
+.icone-salvar-ponto{
+    color: var(--forest-deep);
+    font-size: 20px;
+}
+
+.aspas-ponto-fim{
+  margin-right: 60px;
+}
+
+.aspas-ponto{
+
+  font-size:40px;
+  font-style: italic;
+
+}
+
+.autor-ponto{
+
+  color:gray;
+  margin-top: 20px;
+}

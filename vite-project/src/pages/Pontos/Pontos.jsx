@@ -40,6 +40,7 @@ export default function Pontos(){
                     </button>
                 </div>
             </div>
+          
             {/*Fundo*/ }
             <div className="saudacao-orixa">
                 <div className='teste'>
@@ -47,6 +48,7 @@ export default function Pontos(){
                     <h4>{orixa.nome}</h4>
                    
                 </div>
+               
             </div>
 
             
@@ -55,17 +57,22 @@ export default function Pontos(){
             ):(
 
                 pontos.map((p) =>
-                    <div className ="container-ponto">
+                    <div className="d-flex justify-content-center">
 
-                        <p class = "nome-ponto">{p.nome}</p>
-                        
-                        
-                        <p className="texto-ponto">{p.ponto}</p>
-                        <div className="salvar-ponto">
+                        <div className ="container-ponto">
 
-                            <button type="button"><i class="bi bi-bookmark btn-salvar-ponto"></i></button>
+                        
+                            
+                            <p className="small autor-ponto" s>Autor: {p.compositor}</p>
+                            <p className="aspas-ponto">"</p>
+                            <p className="texto-ponto">{p.ponto}</p>
+                            <p className="d-flex justify-content-end aspas-ponto-fim aspas-ponto">"</p>
+                            <div className="salvar-ponto d-flex justify-content-end">
+
+                                <button  type="button"><i class="bi bi-bookmark icone-salvar-ponto"></i></button>
+                            </div>
+
                         </div>
-
                     </div>
                 )
 
