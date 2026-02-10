@@ -94,7 +94,7 @@ export default function Inicial() {
   
           <Link 
             key={index} 
-            to={"/pontos/"+orixa.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')} 
+            to={"/pontos/orixa/"+orixa.nome.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')} 
             className="card-orixa"
           >
             <img src={orixa.imagem} alt={orixa.nome} />

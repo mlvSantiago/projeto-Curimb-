@@ -35,34 +35,33 @@ export default function Navbar() {
                                 <span>Oxalá ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/oxala/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxala/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/oxala/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxala/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxala/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxala/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxala/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxala/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxala/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxala/transicao">Transição</NavLink></li>
                                 </ul>
                               </li>
                                  <li className="submenu-item">
                                 <span>Óxossi ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/oxossi/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxossi/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/oxossi/jurema">Jurema</NavLink></li>
-                                    <li><NavLink to="/pontos/oxossi/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxossi/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxossi/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxossi/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxossi/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxossi/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxossi/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxossi/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                                  <li className="submenu-item">
                                 <span>Ogum ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/ogum/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/ogum/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/ogum/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/ogum/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/ogum/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/ogum/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/ogum/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/ogum/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/ogum/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/ogum/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
 
@@ -71,11 +70,11 @@ export default function Navbar() {
                                 <span>Iemanjá ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/iemanja/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/iemanja/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/iemanja/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/iemanja/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/iemanja/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iemanja/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iemanja/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iemanja/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iemanja/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iemanja/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
 
@@ -83,44 +82,44 @@ export default function Navbar() {
                                 <span>Oxum ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/oxum/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxum/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/oxum/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxum/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxum/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxum/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxum/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxum/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxum/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxum/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                               <li className="submenu-item">
                                 <span>Oxumaré ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/oxumare/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxumare/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/oxumare/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxumare/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/oxumare/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxumare/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxumare/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxumare/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxumare/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/oxumare/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                               <li className="submenu-item">
                                 <span>Iansã ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/iansa/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/iansa/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/iansa/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/iansa/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/iansa/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iansa/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iansa/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iansa/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iansa/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/iansa/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                               <li className="submenu-item">
                                 <span>Nanã ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/nana/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/nana/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/nana/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/nana/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/nana/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/nana/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/nana/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/nana/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/nana/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/nana/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                              
@@ -128,53 +127,52 @@ export default function Navbar() {
                                 <span>Xangô ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/xango/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/xango/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/xango/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/xango/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/xango/transicao">Transição</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/xango/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/xango/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/xango/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/xango/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/xango/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
                             <hr className="menu-separator"></hr>
                             <li>
-                                <NavLink to="/pontos">Boiadeiros</NavLink>
+                                <NavLink to="/pontos/linha/boiadeiros">Boiadeiros</NavLink>
                             </li>
                              <li>
-                                <NavLink to="/pontos">Caboclos</NavLink>
+                                <NavLink to="/pontos/linha/caboclos">Caboclos</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/pontos">Caboclo Mirim</NavLink>
+                                <NavLink to="/pontos/linha/caboclos/cabocloMirim">Caboclo Mirim</NavLink>
                             </li>
+                        
                             <li>
-                                <NavLink to="/pontos">Exu</NavLink>
+                                <NavLink to="/pontos/linha/ibejada">Ibejada</NavLink>
                             </li>
-                            <li>
-                                <NavLink to="/pontos">Ibejada</NavLink>
-                            </li>
-                             <li>
-                                <NavLink to="/pontos">Iofá</NavLink>
-                            </li>
+                            
                                <li className="submenu-item">
                                 <span>Iofá ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos">Congo</NavLink></li>
-                                    <li><NavLink to="/pontos">Angola</NavLink></li>
-                                    <li><NavLink to="/pontos">Luanda</NavLink></li>
-                                    <li><NavLink to="/pontos">Bahia</NavLink></li>
-                                    <li><NavLink to="/pontos">Carreiro</NavLink></li>
-                                    <li><NavLink to="/pontos">Minhas</NavLink></li>
-                                    <li><NavLink to="/pontos">Cativeiro</NavLink></li>
-                                    <li><NavLink to="/pontos">Almas</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/congo">Congo</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/angola">Angola</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/luanda">Luanda</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/bahia">Bahia</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/carreiro">Carreiro</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/minas">Minas</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/cativeiro">Cativeiro</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/almas">Almas</NavLink></li>
                                 </ul>
+                            </li>
+                            <li>
+                                <NavLink to="/pontos/linha/iofa/paiRoberto">Pai Roberto</NavLink>
                             </li>
                                <li className="submenu-item">
                                 <span>Povo Trabalhador ▸</span>
 
                                 <ul className="submenu-list">
-                                    <li><NavLink to="/pontos">Exu</NavLink></li>
-                                    <li><NavLink to="/pontos">Pomba Gira</NavLink></li>
-                                    <li><NavLink to="/pontos">Malandragem</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/povoTrabalhador/exu">Exu</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/povoTrabalhador/pombaGira">Pomba Gira</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/povoTrabalhador/malandragem">Malandragem</NavLink></li>
                                 </ul>
                             </li>
                             
