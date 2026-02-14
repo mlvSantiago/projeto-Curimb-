@@ -175,3 +175,25 @@ body {
   color:gray;
   margin-top: 20px;
 }
+S
+.nenhum-ponto{
+  color:var(--forest-deep);
+  font-size: 50px;
+  margin-bottom: 60px;
+  
+  
+}
+
+.recomendacao-ponto{
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 200px;
+}
+.recomendacao-ponto a{
+  color:gray;
+  text-decoration: underline;
+
+}
+.recomendacao-ponto a:hover{
+  transform: translateY(-2px);
+}

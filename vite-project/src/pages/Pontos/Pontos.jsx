@@ -6,7 +6,8 @@ import '../../style/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*impotação de dados*/
-import info from '../../data/pontos/orixas.json' 
+import infoOrixa from '../../data/pontos/orixas.json' 
+import linhaInfo from '../../data/pontos/linhas.json'
 
 
 export default function Pontos(){
@@ -24,7 +25,7 @@ export default function Pontos(){
        
         if(subtipo!="" && subtipo !== undefined ){
 
-            orixa = info.orixa[subtipo];
+            orixa = infoOrixa.orixa[subtipo];
             console.log("ORIXA: " ,orixa);
 
             if(tercArg && tercArg !== ""){
@@ -48,15 +49,7 @@ export default function Pontos(){
         }
     }else if(tipo==='linha'){
         
-        if(subtipo!=""){
-            const linha = info.linha[subtipo];
-
-            if(tercArg!=""){
-                
-            }else{
-                
-            }
-        }
+      
     }
 
    return(
@@ -78,34 +71,44 @@ export default function Pontos(){
     
       
 
-        {tipo === 'orixa' && orixa ? (
-            <>
-                {/*Fundo*/} 
-                <div className="saudacao-orixa">
-                    <div className='teste'>
-                        <h1>{orixa.saudacao}</h1>
-                        <h4>{orixa.nome}</h4>
-                    </div>
-                </div>
-                
+       {tipo === 'orixa' && orixa ? (
+    <>
+        {/*Fundo*/} 
+        <div className="saudacao-orixa">
+            <div className='teste'>
+                <h1>{orixa.saudacao}</h1>
+                <h4>{orixa.nome}</h4>
+            </div>
+        </div>
+        
 
-                {/*Exibição dos pontos*/}
-                {pontos && pontos.map((p, index) => (
-                    <div key={index} className="d-flex justify-content-center">
-                        <div className="container-ponto">
-                            <p className="small autor-ponto">Autor: {p.compositor}</p>
-                            <p className="aspas-ponto">"</p>
-                            <p className="texto-ponto">{p.ponto}</p>
-                            <p className="d-flex justify-content-end aspas-ponto-fim aspas-ponto">"</p>
-                            <div className="salvar-ponto d-flex justify-content-end">
-                                <button type="button">
-                                    <i className="bi bi-bookmark icone-salvar-ponto"></i>
-                                </button>
-                            </div>
+        {/*Exibição dos pontos*/}
+        {pontos && pontos.length > 0 ? (
+            pontos.map((p, index) => (
+                <div key={index} className="d-flex justify-content-center">
+                    <div className="container-ponto">
+                        <p className="small autor-ponto">Autor: {p.compositor}</p>
+                        <p className="aspas-ponto">"</p>
+                        <p className="texto-ponto">{p.ponto}</p>
+                        <p className="d-flex justify-content-end aspas-ponto-fim aspas-ponto">"</p>
+                        <div className="salvar-ponto d-flex justify-content-end">
+                            <button type="button">
+                                <i className="bi bi-bookmark icone-salvar-ponto"></i>
+                            </button>
                         </div>
                     </div>
-                ))}
-            </>
+                </div>
+            ))
+        ) : (
+            <div className="d-flex flex-column align-items-center">
+                <p className="nenhum-ponto text-center">Nenhum ponto disponível nessa seção</p>
+             
+                <p className="text-center recomendacao-ponto">Conhece algum ponto para essa seção?<br /> <a href="/contato">Entre em contato conosco!</a></p>
+
+            </div>
+            
+        )}
+        </>
         ) : (
             <p>entidade</p>
         )}

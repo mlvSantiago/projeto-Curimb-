@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+
+.formulario{
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 800px;
+}
+
+.formulario input{
+    color:var(--rosemary);
+    border-color: var(--eucalyptus);
+
+}
+
+.formulario input:focus{
+    color:var(--rosemary);
+    border-color: #24a86b;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+.formulario textarea{
+     color:var(--rosemary);
+    border-color: var(--eucalyptus);
+}
+
+.formulario textarea:focus{
+     color:var(--rosemary);
+     border-color: #24a86b;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+p{
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+}
+
+h4{
+    color:var(--rosemary);
+}

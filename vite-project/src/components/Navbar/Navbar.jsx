@@ -144,23 +144,24 @@ export default function Navbar() {
                             <li>
                                 <NavLink to="/pontos/linha/caboclos/cabocloMirim">Caboclo Mirim</NavLink>
                             </li>
-                        
                             <li>
-                                <NavLink to="/pontos/linha/ibejada">Ibejada</NavLink>
+
+                                  <NavLink to="/pontos/linha/ibejada">Ibejada</NavLink>
                             </li>
+                        
                             
                                <li className="submenu-item">
                                 <span>Iofá ▸</span>
 
                                 <ul className="submenu-list">
                                     <li><NavLink to="/pontos/linha/iofa/congo">Congo</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/angola">Angola</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/luanda">Luanda</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/bahia">Bahia</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/carreiro">Carreiro</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/minas">Minas</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/cativeiro">Cativeiro</NavLink></li>
-                                    <li><NavLink to="/pontos/linha/almas">Almas</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/angola">Angola</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/luanda">Luanda</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/bahia">Bahia</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/carreiro">Carreiro</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/minas">Minas</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/cativeiro">Cativeiro</NavLink></li>
+                                    <li><NavLink to="/pontos/linha/iofa/almas">Almas</NavLink></li>
                                 </ul>
                             </li>
                             <li>
@@ -174,6 +175,9 @@ export default function Navbar() {
                                     <li><NavLink to="/pontos/linha/povoTrabalhador/pombaGira">Pomba Gira</NavLink></li>
                                     <li><NavLink to="/pontos/linha/povoTrabalhador/malandragem">Malandragem</NavLink></li>
                                 </ul>
+                            </li>
+                            <li>
+                                    <NavLink to="/pontos/linha/santoAntonio">Santo Antônio</NavLink>
                             </li>
                             
                         </ul>
