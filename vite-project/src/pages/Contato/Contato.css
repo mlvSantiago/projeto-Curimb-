@@ -53,3 +53,15 @@ p{
 h4{
     color:var(--rosemary);
 }
+
+.aviso{
+    color:rgb(213, 33, 33);
+
+    font-size: 15px;
+    padding-bottom: auto;
+}
+
+.botaoEnviar:active{
+    background-color: var(--forest-deep) !important;
+}
+

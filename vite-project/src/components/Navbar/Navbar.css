@@ -306,6 +306,7 @@
 .dropdown-toggle::after {
     margin-left: 0.4em;
     vertical-align: 0.15em;
+    
 }
 
 .dropdown-custom {

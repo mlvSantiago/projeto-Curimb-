@@ -93,30 +93,36 @@ body {
 
 .saudacao-orixa{
    
-    padding-bottom:  60px;
+    padding-bottom:  30px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 
 }
 
-.saudacao-orixa  h1 {
-    color: rgba(45, 62, 54, 0.1);
-   
-    font-size: 80px;
-    margin-bottom: 16px;
-    
+.saudacao-orixa h1 {
+    color: rgba(45, 62, 54, 0.3);
+    font-size: 100px;
+    margin: 0; 
+    font-family: 'Babylonica', cursive;
 }
 
-.saudacao-orixa h4{
-    color: var(--forest-deep);
-    font-size: 24px;
-    color: rgba(45, 62, 54, 0.1);
+.saudacao-orixa h4 {
+    color: rgba(45, 62, 54, 0.5);
+    font-size: 40px;
+    margin: 0; 
+     font-family: 'Babylonica', cursive;
 }
 
-
-
+.tipoPonto{
+  margin-top: 60px;
+  margin-bottom: 5px;
+  font-family: 'Babylonica', cursive;
+  font-size: 40px  !important;
+  color: rgba(45, 62, 54, 0.5) !important;
+ 
+}
 /*PONTOS*/
 .texto-ponto {
   white-space: pre-line;
@@ -125,6 +131,9 @@ body {
   margin-left: 40px;
 
   
+}
+.teste{
+ 
 }
 
 .container-ponto{
@@ -196,4 +205,38 @@ S
 }
 .recomendacao-ponto a:hover{
   transform: translateY(-2px);
+}
+
+
+/*  FERRAMENTAS ORIXAS */
+.ferramentaOrixa{
+  width: 200px;
+  height: 200px;
+
+  opacity: 0.3;
+
+  display: inline;
+  
+
+  
+}
+
+.ferramentaEsq{
+  margin-right: 20px;
+}
+.ferramentaDir{
+  margin-left: 20px;
+}
+
+
+.containerTitulo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.ferramentaXango{
+  width: 160px !important;
 }

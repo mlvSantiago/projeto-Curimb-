@@ -3,7 +3,7 @@
         "oxala": {
             "nome": "Oxalá",
             "saudacao": "Epa Babá Oxalá",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"opaxoro",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -15,9 +15,10 @@
         "oxossi": {
             "nome": "Oxóssi",
             "saudacao": "Oke Arô Oxóssi",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"ofa",
             "tiposPontos": {
                 "defumacao": [
+                    
                     {
                         "id":1,
                         "nome":"",
@@ -565,7 +566,7 @@
         "ogum": {
             "nome": "Ogum",
             "saudacao": "Patakori Ogum",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"ida",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -577,7 +578,7 @@
         "iemanja": {
             "nome": "Iemanjá",
             "saudacao": "Odoyá Iemanjá",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"abebeIemanja",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -597,7 +598,7 @@
         "oxum": {
             "nome": "Oxum",
             "saudacao": "Ora iê iê ô Oxum",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"abebeOxum",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -609,7 +610,7 @@
         "oxumare": {
             "nome": "Oxumaré",
             "saudacao": "Arroboboi Oxumarê!",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"apara",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -621,7 +622,7 @@
         "iansa": {
             "nome": "Iansã",
             "saudacao": "Eparrey Bela Oya",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"eruexim",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -633,7 +634,19 @@
         "nana": {
             "nome": "Nanã",
             "saudacao": "Saluba, Nanã",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"ibiri",
+            "tiposPontos": {
+                "defumacao": [],
+                "firmeza": [],
+                "louvacao": [],
+                "passeIrradiacao": [],
+                "transicao": []
+            }
+        },
+         "obaluae": {
+            "nome": "Obaluaê",
+            "saudacao": "Atotô Obaluaê",
+            "ferramenta":"xararae",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -645,7 +658,7 @@
         "xango": {
             "nome": "Xangô",
             "saudacao": "Kâo Kabecilê Xangô",
-            "ferramenta":"../../assets/img/ferramentas/ofá.png",
+            "ferramenta":"oxe",
             "tiposPontos": {
                 "defumacao": [],
                 "firmeza": [],
@@ -671,4 +684,5 @@
             }
         }
     }
+
 }

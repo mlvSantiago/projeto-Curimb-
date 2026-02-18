@@ -122,6 +122,17 @@ export default function Navbar() {
                                     <li><NavLink to="/pontos/orixa/nana/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
+                               <li className="submenu-item">
+                                <span>Obaluaê ▸</span>
+
+                                <ul className="submenu-list">
+                                    <li><NavLink to="/pontos/orixa/obaluae/defumacao">Defumação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/obaluae/firmeza">Firmeza</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/obaluae/louvacao">Louvação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/obaluae/passeIrradiacao">Passe/ Irradiação</NavLink></li>
+                                    <li><NavLink to="/pontos/orixa/obaluae/transicao">Transição</NavLink></li>
+                                </ul>
+                            </li>
                              
                               <li className="submenu-item">
                                 <span>Xangô ▸</span>
