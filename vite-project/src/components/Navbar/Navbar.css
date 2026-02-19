@@ -131,7 +131,7 @@
 }
 
 .menu-dropdown-list::-webkit-scrollbar-thumb:hover {
-  background: #e70000;
+  background:var(--eucalyptus);
 }
 
 

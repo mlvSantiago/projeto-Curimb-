@@ -6,7 +6,22 @@
             "ferramenta":"opaxoro",
             "tiposPontos": {
                 "defumacao": [],
-                "firmeza": [],
+                "firmeza": [
+                {
+                    "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Voou uma pomba branca\nNo ceu pelo mundo inteiro\nMas foi no meu terreiro\nQue ela descansou\n\nA coroa de Oxala\nQue esta nesse gonga\nDando força "
+                },
+                {
+                    "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "ponto":"Meu pai quando você nasceu\nMostrou a nós a igualdade\nMeu pai quando você cresceu\nAndou prestando a caridade\n\nE hoje, já raiou a liberdade\nVocê mandou chuva que pinga\nPinga no terreiro e amansou a humanidade\n"
+                }
+                ],
                 "louvacao": [],
                 "passeIrradiacao": [],
                 "transicao": []
@@ -556,6 +571,52 @@
                         "compositor": "Desconhecido",
                         "de-para":"Oxosse-Iemanjá",
                         "ponto":"Mas como é lindo o pisar dos Caboclos\nEles pisam na trilha, no rastro dos outros\nSalve Iemanja, salve a Sereia\nSalve os Caboclos, brincando na areia."
+                    },
+                    {   
+                        "id":2,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Ogum",
+                        "ponto":"Mas como  é lindo o Caboclo na mata\nCom sua flecha de prata\nEsperando Pai Ogum\nMas como é linda a Cabocla Jurema\nCom seu saiote de pena\nDançamdo pra mãe Oxum\n"
+                        
+                        
+                    },
+                    {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Ogum",
+                        "ponto":"Salve Oxossi\nOke Caboclo\nSeu sete estrelas vem com a Jurema\nChama Ogum e sua falange\nPra Salvar filhos de pemba\n"
+
+                    },
+                    {
+                        "id":4,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Ogum",
+                        "ponto":"Mas olha que beleza\nTem o clarão da Lua Oxosse na sua mata\nOgum na sua Lua"
+
+                    },
+                    {
+                        "id":5,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Ogum",
+                        "ponto":"Ô Juremê, ô Juremá\nSua flecha caiu serena, ô Jurema dentro desse Gongá\nSalve São Jorge Guerreiro, salve São Sebastião \n Saravá Povo da Umbanda que nos da proteção\n Ô Jurema\n"
+
+                    },
+                    {
+                        "id":6,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconhecido",
+                        "de-para":"Oxosse-Ogum",
+                        "ponto":"Quem é aquele cavaleiro da Jurema\nEm seu cavalo branco,com sua lança de prata\nEle é seu Rompe Mato,Ele é o Rei das matas\n"
+
                     }
 
 
@@ -569,9 +630,326 @@
             "ferramenta":"ida",
             "tiposPontos": {
                 "defumacao": [],
+                "louvacao":[
+                     {
+                        "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Jessé, Jessé é Patacori\nOgum é Patalobá\nOlha mina, que mina, que mina aué\nOlha mina que mina auá\nOi diz aué Papai de Umbanda\nAué Ogum General."
+                    },
+                      {
+                        "id":2,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum é Cavaleiro da Lua\nSó ele navega no mar\nSó ele navega no mar\nSó ele navega no mar\nSó ele navega no mar\nSereia."
+                    },
+                      {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Pisa na linha de Umbanda Ogum Rompe Mato\nPisa na linha de Umbanda Ogum Beira-Mar\nPisa na linha de Umbanda eu quero ver\nOgum Iara, Ogum Megê\nOlha pisa na linha..."
+                    },
+                      {
+                        "id":4,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"O homem que fuma e bebe\nOi ganga é Ogum Megê\nOi ganga é de Lei, é de Lei, é de Lei\nÔ ganga é Ogum Megê\nOi ganga."
+                    },
+                      {
+                        "id":5,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Cavalheiro de Jurema\nEle é Ogum Megê\n Ele é, Ele é, Ele é Ogum Megê."
+
+                    },
+                      {
+                        "id":6,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"No dia de hoje vamos saravá Ogum\nNo dia de hoje vamos saravá Ogum\nOgum, Ogum vamos saravá Ogum\nOgum, Ogum vamos saravá Ogum."
+                    },
+                      {
+                        "id":7,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum é o nosso Rei de Umbanda\nA Sua coroa Oxalá iluminou\nEle extrai aos filhos seus\nA espada que é de ouro\nA bandeira que é de paz e de amor."
+                    },
+                      {
+                        "id":8,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Diz Ogum é babaluê\nOgum é de babaluê\nNa lua ele é São Jorge\nNa terra ele é Ogum\nBeira Mar\nDiz Ogum é de babaluê."
+                    },
+                      {
+                        "id":9,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"No campo de batalha ouviu-se o toque dos clarins\nCavaleiros armados a lutarem por mim\nÀs cinco horas rompeu-se a madrugada\nOgum é Guerreiro e vem chegando na alvorada\nOgum Megê, Seu Matinata\nA Sua espada corta o vento em Seu cavalo a galopar\nOgum que está de ronda, Ogum que vem rondar\nCom sua lança de ouro refletindo ao luar\nOgum em batalha pelos filhos de Oxalá\nOgum Megê, Seu Matinata."
+                    },
+                      {
+                        "id":10,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "D. Irene",
+                        "ponto":"A lua brilhou no céu como raio de luz\nA Estrela brilhou na mata, Sua espada reluz\nMas Ele é Rei, Ele é Rei, Ele é Rei\nOgum é Rei na Umbanda, Ele é Rei\nCaminhava na mata escura fazendo uma oração\nNo Humaitá Ogum é Rei, no Gongá ele é meu Rei\nNo Terreiro de Seu Mirim todos nós somos iguais."
+                    },
+                      {
+                        "id":11,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ai, Ai, Ai, Ogum Megê\nAcauna, Acauna, Ogum Megê."
+                    },
+                      {
+                        "id":12,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum meu Pai vem na Umbanda nos valer\nVeio saravá Umbanda meu Papai Ogum Megê."
+                    },
+                      {
+                        "id":13,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Lá vem Ogum montado em Seu cavalo\nTrazendo a Sua lança com Sua espada do lado\nSe a mata é Vossa, Deixai correr\nVamos saravá Ogum Megê."
+                    },
+                      {
+                        "id":14,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum é um Rei, Ogum é um Pai\nOgum é um Rei lá no Humaitá\nOgum tem sete espadas, sete lanças e sete guias\nOgum tem as sete estrelas que no Terreiro irradia."
+
+                    },
+                      {
+                        "id":15,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Cinco horas da manhã Ogum tocou alvorada\nMas Ele é Ogum do Sol, Ogum da Lua, Cavaleiro de Aruanda\nEle é Ogum Megê, laiá, laiá, laiá, laiá, laiá lá."
+                    },
+                      {
+                        "id":16,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum Marinho quem Te trouxe do mar?\nFoi Seu Beira Mar, foi Seu Beira Mar."
+                    },
+                      {
+                        "id":17,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"A Sua espada brilha no raiar do dia\nSeu Beira Mar é filho da Virgem Maria\nBeira Mar, Beira Mar ié\nSeu Beira Mar é filho da Virgem Maria."
+                    },
+                      {
+                        "id":18,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Olho pro céu, Ogum está de ronda\nEntro na mata, Ogum lá está\nOlha Beira Mar, olha Beira Mar, olha Beira Mar\nEle é Chefe do Gongá."
+                    },
+                      {
+                        "id":19,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Diz Ogum tá no céu, tá não\nDiz Ogum tá na terra, tá não\nOiréréréréréra\nDiz Ogum tá de ronda no Humaitá\nOirérérérérérá\nDiz Ogum tá de ronda no Gongá."
+                    },
+                      {
+                        "id":20,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Se meu Pai é Ogum, vencedor de demanda\nEle vem de Aruanda prá salvar filho de Umbanda\nOgum, Ogum Iara, Ogum, Ogum Iara\nSalve os campos de batalha\nSalve a Sereia do mar\nOgum, Ogum Iara."
+                    },
+                      {
+                        "id":21,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum me disse que dançar nagô é bom\nQue dançar nagô é bom, que dançar nagô é bom."
+                    },
+                      {
+                        "id":22,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "D.Araci",
+                        "ponto":"Mandai a Sua falange Ogum\nSua Coroa é de Lei\nOgum, Ogum, Ogum, meu Pai\nSua Coroa é de Lei."
+                    },
+                      {
+                        "id":24,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Se a Sua espada é de ouro\nSua Coroa é de Rei\nOgum é Tata de Umbanda\nSeu Canjira é Mujongo Ogum iê."
+                    },
+                      {
+                        "id":25,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum Beira Mar quem Te trouxe do mar?\nQuando Ele vem beirando a areia\nVem trazendo no braço direito\nO rosário da Mamãe Sereia."
+                    },
+                      {
+                        "id":26,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"É Ele quem toma conta do mar\nE Ele é quem é Seu Ogum Beira Mar\nBeira Mar, Beira Mar\nÉ o timoneiro de Mãe Iemanja\nBeira Mar, Beira Mar\nÉ Mensageiro de Pai Oxalá."
+
+                    },
+                      {
+                        "id":27,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum jurou bandeira Seu Rompe Mato tornou a jurar\nEle tem peito de aço\nVenceu a guerra no Humaitá."
+                    },
+                      {
+                        "id":28,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum de Lei meu Pai estão Lhe chamando\nOgum de Lei meu Pai estão Lhe esperando\nCom Sua espada e Sua lança na mão\nOgum de Lei é vencedor de demanda."
+                    }
+                     
+                ],
                 "firmeza": [],
-                "louvacao": [],
-                "passeIrradiacao": [],
+          
+                "passeIrradiacao": [
+                   {
+                        "id":1,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"É madrugada, bate adarrum\nToca alvorada que aí vem Ogum\nSeu Ogum Sete Ondas, Sua benção meu Pai\nQuem é filho de Ogum roda, balança e não cai\nÉ madrugada..."
+                    },
+                   {
+                        "id":2,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Na madrugada, quando a Lua sair\nOgum firma Seu ponto\nPrá seus filhos não cair\nDe noite, de madrugada\nOgum abre as portas\nCom a Sua espada."
+                    },
+                   {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Senhor General Ogum, Ele foi praça de cavalaria\nEle tinha sete espadas e nos defendia\nEu tenho Ogum em minha companhia."
+                    },
+                   {
+                        "id":3,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum olha os seus filhos de batalha\nSua bandeira é a bandeira da paz\nA Sua espada brilha num raio de amor\nOlha seus filhos, que eu sou filho do Senhor (meu pai Ogum)\nOgum me coroou, Ogum me coroou, Ogum me coroou, meu Pai Ogum\nOgum ja me coroou."
+                    },
+                   {
+                        "id":4,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Sete caminhos andei\nSete perigos passei\nSete demandas venci\nJunto ao meu lado\nPai Ogum com sete espadas\nPronto prá me defender\nSeus cavalheiros armados\nCom sete espadas de ouro\nCom sete lanças de prata\nSaravá Ogum, vencedor de demanda\nSegura a nossa terra meu Pai\nGeneral de Umbanda."
+                    },
+                   {
+                        "id":5,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum, Ogum, Ogum meu Pai\nO Senhor mesmo é quem diz\nFilho de Umbanda não cai\nOh! Jorge, Oh! Jorge vem de Aruanda\nVem saudar os vossos filhos na Sua Lei de Umbanda."
+                    },
+                   {
+                        "id":6,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum meu Pai vem na Umbanda nos valer\nVeio saravá Umbanda meu Papai Ogum Megê."
+                    },
+                   {
+                        "id":7,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Se meu Pai é Ogum, vencedor de demanda\nEle vem de Aruanda prá salvar filho de Umbanda\nOgum, Ogum Iara, Ogum, Ogum Iara\nSalve os campos de batalha\nSalve a Sereia do mar\nOgum, Ogum Iara."
+                    },
+                   {
+                        "id":8,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Mas quando Ogum partiu prá guerra Ele mandou orar, orar\nOrar, orar, orar, orar\nOgum mandou orar, orar."
+                    },
+                   {
+                        "id":9,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Bandeira linda de Ogum está içada lá no Humaitá\nRendendo honra General de Umbanda\nOgum vem de Aruanda para nos salvar."
+                    },
+                   {
+                        "id":10,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Vem Ogum montado em Seu cavalo\nA Sua lança é de ouro, a Sua espada reluz\nA Sua manta cobre os filhos de Jesus."
+                    },
+                   {
+                        "id":11,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum vem no clarão da lua\nOgum venha nos ajudar\nO segura a banda Ogum meu Pai\nSegura Gongá eu quero ver\nSegura seus filhos na Umbanda\nOgum Megê."
+
+                    },
+                   {
+                        "id":12,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ele venceu a guerra, Ele tocou clarim\nEle é Ogum Guerreiro da madrugada\nEle é Ogum Rompe Mato\nEle é Ogum Matinata."
+                    },
+                    {
+                        "id":13,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ele é Ogum General de Umbanda\nChegou no Terreiro\nEle é vencedor de demanda\nCom Sua espada que brilha ao luar\nVai cortar todo o mal que está nesse Gongá."
+                    },
+                    {
+                        "id":14,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Ogum a Sua espada é de ouro\nOgum Sua bandeira é de paz\nEu sei que Ogum é Rei de Umbanda\nQuem pede com fé tudo Ele faz\nOi salve Ogum, Ogum, Ogum nesse Gongá\nOgum é Cavaleiro de Oxalá."
+                    },
+                    {
+                        "id":15,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Meu Pai Ogum de Malê\nNão me deixa sofrer tanto assim\nQuando eu morrer e passar pela Aruanda\nVou pedir meu Pai Ogum\nPra salvar filho de Umbanda\nSalve São Jorge, Cavaleiro de Oxalá\nEu tenho Sete Espadas prá me defender\nEu tenho Ogum em minha companhia\nOgum é meu Pai, Ogum é meu Guia\nOgum é meu Pai\nVenha com Deus e a Virgem Maria."
+                    },
+                    {
+                        "id":16,
+                        "nome":"",
+                        "audio": "",
+                        "compositor": "Desconecido",
+                        "ponto":"Seu Ogum quando chega no Reino\nFilho de Umbanda cura\nQuando o filho está na corda bamba\nSe escorrega, Ele segura."
+                    }
+                  
+                ],
                 "transicao": []
             }
         },
@@ -580,7 +958,14 @@
             "saudacao": "Odoyá Iemanjá",
             "ferramenta":"abebeIemanja",
             "tiposPontos": {
-                "defumacao": [],
+                "defumacao": [    
+                    {
+                        "id": 1,
+                        "nome": "",
+                        "audio": "",
+                        "compositor": "",
+                        "ponto": "Ô Saravando Iemanjá \nE o povo d’água que venha nos ajudar \nÔ saravando mãe Oxum \nE com licença de nosso pai Oxalá  \n\nDefuma Iemanjá, defuma \nDefuma com incenso e guiné \nCom mirra, benjoim e alfazema \nVamos defumar filhos de fé "
+                    }],
                 "firmeza": [],
                 "louvacao": [
                     {

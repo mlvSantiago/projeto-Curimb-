@@ -122,7 +122,7 @@ export default function Pontos(){
                      {ferramenta === 'abebeOxum' && <img src={abebeOxum} alt="" className="ferramentaOrixa ferramentaEsq" />}
                      {ferramenta === 'apara' && <img src={apara} alt="" className="ferramentaOrixa ferramentaEsq" />}
                      {ferramenta === 'ida' && <img src={ida} alt="" className="ferramentaOrixa ferramentaEsq" />}
-                    {ferramenta === 'ofa' && <img src={ofa} alt="" className="ferramentaOrixa ferramentaEsq" />}
+                     {ferramenta === 'ofa' && <img src={ofa} alt="" className="ferramentaOrixa ferramentaEsq" />}
                     {ferramenta === 'opaxoro' && <img src={opaxoro} alt="" className="ferramentaOrixa ferramentaEsq" />}
                      {ferramenta === 'eruexim' && <img src={eruexim} alt="" className="ferramentaOrixa ferramentaEsq" />}
                      {ferramenta === 'ibiri' && <img src={ibiri} alt="" className="ferramentaOrixa ferramentaEsq" />}

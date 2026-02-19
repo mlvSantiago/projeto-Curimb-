@@ -31,17 +31,9 @@ export default function Navbar() {
                         <span className="nav-link-custom">Pontos ▾</span>
 
                         <ul className="menu-dropdown-list">
-                                 <li className="submenu-item">
-                                <span>Oxalá ▸</span>
-
-                                <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/orixa/oxala/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxala/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxala/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxala/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxala/transicao">Transição</NavLink></li>
-                                </ul>
-                              </li>
+                                 <li>
+                                    <NavLink to="/pontos/orixa/oxala">Oxalá</NavLink>
+                            </li>
                                  <li className="submenu-item">
                                 <span>Óxossi ▸</span>
 
