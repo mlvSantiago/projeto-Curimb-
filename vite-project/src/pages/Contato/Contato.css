@@ -54,11 +54,19 @@ h4{
     color:var(--rosemary);
 }
 
-.aviso{
+.avisoErro{
     color:rgb(213, 33, 33);
 
     font-size: 15px;
     padding-bottom: auto;
+}
+
+.aviso{
+    color:rgb(25, 137, 34);
+
+    font-size: 15px;
+    padding-bottom: auto;
+
 }
 
 .botaoEnviar:active{

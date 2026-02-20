@@ -13,10 +13,13 @@ import Iemanja from '../../assets/img/Orixas/Yemanja.jpeg';
 import Iansã from '../../assets/img/Orixas/Iansa.jpeg';
 import Oxum from '../../assets/img/Orixas/Oxum.jpeg';  
 import Oxumare from '../../assets/img/Orixas/Oxumare.jpeg';
-
 import Nanã from '../../assets/img/Orixas/Nana.jpeg';  
 import Ogum from '../../assets/img/Orixas/Ogum.jpeg';
 import Exu from '../../assets/img/Orixas/Exu.jpeg';
+
+import flecha from "../../assets/img/flecha.png"
+
+
 
 
 
@@ -74,6 +77,7 @@ export default function Inicial() {
     <div className='hidden'>
       <div className='container '>
         <div className='mb-5 mt-5 '>
+
           <h1 className='mb-3'>
             Tecnologia a serviço do sagrado
             <br />
@@ -106,7 +110,7 @@ export default function Inicial() {
           <p>O Curimbã é um espaço dedicado à preservação, ao estudo e à vivência do sagrado através da Curimba. <br></br>
             Mais do que um simples acervo de pontos cantados cheios de força e fundamento para nossas giras, o site nasce com o propósito de auxiliar e fortalecer o aprendizado daqueles que trilham o caminho da Curimba, seja por devoção, estudo ou formação dentro da escola de curimba.<br></br>
             Aqui, o aprendizado é entendido como parte essencial do fazer religioso: aprender a cantar, compreender o fundamento dos pontos, respeitar suas linhas e reconhecer sua importância espiritual.<br></br>
-            O site reúne mais de {qtPontos} pontos, incluindo pontos de Orixás para defumação, irradiação, passe e louvação, além de pontos das diversas linhas trabalhadas na Umbanda, servindo como apoio contínuo para quem busca conhecimento, prática consciente e preservação da tradição.</p>
+            O site reúne inumeros pontos, incluindo pontos de Orixás para defumação, irradiação, passe e louvação, além de pontos das diversas linhas trabalhadas na Umbanda, servindo como apoio contínuo para quem busca conhecimento, prática consciente e preservação da tradição.</p>
           <img src={minhaImagem} alt="Curimba Seara Espiritualista Falangeiros da Aruanda" className='foto-curimba' />
 
           <p className='mt-3'>
