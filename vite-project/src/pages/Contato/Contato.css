@@ -73,3 +73,12 @@ h4{
     background-color: var(--forest-deep) !important;
 }
 
+.botao {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.invisivel {
+  opacity: 0;
+  pointer-events: none;
+}
