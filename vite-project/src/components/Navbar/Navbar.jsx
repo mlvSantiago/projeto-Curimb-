@@ -81,17 +81,7 @@ export default function Navbar() {
                                     <li><NavLink to="/pontos/orixa/oxum/transicao">Transição</NavLink></li>
                                 </ul>
                             </li>
-                              <li className="submenu-item">
-                                <span>Oxumaré ▸</span>
 
-                                <ul className="submenu-list">
-                                    <li><NavLink to="/pontos/orixa/oxumare/defumacao">Defumação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxumare/firmeza">Firmeza</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxumare/louvacao">Louvação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxumare/passeIrradiacao">Passe/ Irradiação</NavLink></li>
-                                    <li><NavLink to="/pontos/orixa/oxumare/transicao">Transição</NavLink></li>
-                                </ul>
-                            </li>
                               <li className="submenu-item">
                                 <span>Iansã ▸</span>
 

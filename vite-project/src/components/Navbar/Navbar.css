@@ -137,6 +137,7 @@
 
 /* abrir */
 .menu-dropdown:hover > .menu-dropdown-list {
+    
     display: block;
 }
 
@@ -301,67 +302,39 @@
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(95, 122, 110, 0.3);
 }
-
-/* ========== DROPDOWN ========== */
-.dropdown-toggle::after {
-    margin-left: 0.4em;
-    vertical-align: 0.15em;
-    
+/* ========== DROPDOWN CUSTOMIZADO ========== */
+.menu-dropdown {
+    position: relative;
+    list-style: none;
 }
 
-.dropdown-custom {
+.menu-dropdown-list {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0.5em 0;
+    margin: 0;
+    min-width: 220px;
+    background: white;
     border: 1px solid var(--lavender-grey);
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    padding: 0.5rem 0;
-    min-width: 220px;
-    margin-top: 0.5rem;
-    animation: slideDown 0.2s ease;
+
+    /* Estado inicial - escondido */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
 }
 
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* Ao passar o mouse, aparece suavemente */
+.menu-dropdown:hover > .menu-dropdown-list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
-
-.dropdown-item {
-    color: var(--forest-deep);
-    padding: 0.75rem 1.25rem;
-    font-size: 0.95rem;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.dropdown-icon {
-    font-size: 1.1rem;
-    opacity: 0.8;
-}
-
-.dropdown-item:hover {
-    background-color: var(--white-tea);
-    color: var(--eucalyptus);
-    padding-left: 1.5rem;
-}
-
-.dropdown-item.active {
-    background-color: var(--sage-green);
-    color: white;
-}
-
-.dropdown-divider {
-    border-color: var(--lavender-grey);
-    margin: 0.5rem 0;
-}
-
 /* ========== MOBILE RESPONSIVO ========== */
 .navbar-toggler {
     border: none;

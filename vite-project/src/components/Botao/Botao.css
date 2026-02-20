@@ -1,0 +1,39 @@
+
+
+:root {
+  --sage-green: #8b9d83;
+  --mint-cream: #f4f7f5;
+  --eucalyptus: #5f7a6e;
+  --forest-deep: #2d3e36;
+  --lavender-grey: #e8ebe9;
+  --clay: #a78b71;
+  --white-tea: #e8f7e0;
+  --rosemary: #4a5d52;
+  --chamomile: #d4d9d1;
+}
+
+.posicao-btn{
+  position:fixed;
+  
+
+  margin-left: 90%;
+  margin-top: 400px;
+
+
+
+}
+
+.botao {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+
+  background-color: var(--eucalyptus);
+}
+
+.botao:active{
+    background-color: var(--forest-deep) !important;
+}

@@ -11,10 +11,13 @@ import Contato from './pages/Contato/Contato.jsx'
 //Componentes
 import Navbar from './components/Navbar/Navbar.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import Botao from './components/Botao/Botao.jsx'
+import ScrollToTop  from './components/ScrollToTop/ScrollToTop.jsx' 
 
 function App() {
   return (
     <BrowserRouter>
+   <ScrollToTop></ScrollToTop>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Inicial/>} />
@@ -25,6 +28,7 @@ function App() {
         <Route path='/contato' element={<Contato></Contato>}></Route>
         
       </Routes>
+      <Botao></Botao>
     <Footer/>
      
     </BrowserRouter>

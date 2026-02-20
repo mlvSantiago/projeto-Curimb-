@@ -35,11 +35,9 @@ export default function Inicial() {
     { nome: 'Ogum', imagem: Ogum },
     { nome: 'Iemanjá', imagem: Iemanja },
     { nome: 'Oxum', imagem: Oxum },
-    { nome: 'Oxumaré', imagem: Oxumare },
     { nome: 'Iansã', imagem: Iansã },
     { nome: 'Nanã', imagem: Nanã },
     { nome: 'Xangô', imagem: Xango },
-    { nome: 'PovoTrabalhador', imagem: Exu },
   ];
 
 
