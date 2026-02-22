@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+body{
+    background-color: var(--mint-cream);
+}
+.container-explicacao{
+    background-color:var(--white-tea);
+
+    padding: 20px;
+
+    border-radius: 30px;
+
+
+
+ 
+}
+.container-explicacao p{
+    color:var(--forest-deep);
+    font-size: 16px;
+}
+
+
+
+.container-radio div{
+    margin-top: 20px;
+}
+
+input[type="radio"]{
+    border-width: 1px;
+    border-color: var(--forest-deep);
+
+    background-color: var(--white-tea);
+}
+
+input[type="radio"]:checked {
+    background-color: var(--sage-green);
+    border-color: var(--sage-green);
+
+    box-shadow: 0 0 6px rgba(17, 253, 166, 0.9); /* brilho */
+    
+}
+
+.btn:active{
+    background-color: var(--forest-deep) !important;
+}
+
+.tipoPdf{
+    display: flex;
+}
+
+#nao{
+    margin-left:20px;
+}
+
+p{
+    color:var(--forest-deep) !important;
+}
+
+
+
