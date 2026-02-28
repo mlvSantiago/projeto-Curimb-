@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './GeraPdf.css'
+import InputGuia from '../../components/inputGuia/inputGuia.jsx'
 
 export default function GeraPdf() {
 
@@ -8,6 +9,28 @@ export default function GeraPdf() {
   const [linha, setLinha] = useState('');
   const [irradiacao,setIrradiacao] = useState('');
   const [louvacao,setLouvacao] = useState('');
+
+
+
+
+    useEffect(() => {
+      if (tipoPdf === 'nao') {
+        setTipoSessao('');
+        setLinha('');
+        setIrradiacao('');
+        setLouvacao('');
+      }
+    }, [tipoPdf]);
+
+    const [mostrar,setMostrar] = useState(false)
+
+    useEffect(()=>{
+      if(linha!=''){
+        setMostrar(true);
+      }else{
+        setMostrar(false);
+      }
+    },[linha])
 
   return (
     <div className='container mt-5 mb-5 fade-in'>
@@ -269,8 +292,19 @@ export default function GeraPdf() {
         </>
       ) : null}
 
+      {/* COMPONENTE INPUT NOME DO GUIA DO DIRIGENTE*/ }
+      {mostrar && <InputGuia linhaGuia = 'Caboclo(a)'></InputGuia>}
+      {mostrar && <InputGuia linhaGuia = 'Preto Velho(a)'></InputGuia>}
 
-
+      {mostrar && linha!='caboclo'&& linha!='pretoVelho'?(
+        <>
+        {linha === 'ibejada' && <InputGuia linhaGuia = 'Ibejada'></InputGuia> }
+        {linha === 'exu' && <InputGuia linhaGuia='Exu/Pomba Gira/ Malandro'></InputGuia>}
+        
+        </>
+      ):null} 
+      
+    
       <div>
         <button type="button" className='btn btn-primary'>Gerar PDF</button>
       </div>

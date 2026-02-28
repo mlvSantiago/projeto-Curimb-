@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --sage-green: #8b9d83;        /* Verde sálvia suave */
+  --mint-cream: #f4f7f5;        /* Creme menta claro */
+  --eucalyptus: #5f7a6e;        /* Eucalipto médio */
+  --forest-deep: #2d3e36;       /* Verde floresta escuro */
+  --lavender-grey: #e8ebe9;     /* Cinza lavanda */
+  --clay: #a78b71;              /* Terracota suave */
+  --white-tea: #e8f7e0;         /* Branco chá */
+  --rosemary: #4a5d52;          /* Alecrim */
+  --chamomile: #d4d9d1;         /* Camomila */
+  --golden-bronze: #e2b753;
+}
+
+
+.container-input{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0;
+
+    border-radius: 30px;
+    border-color: var(--sage-green);
+    border-width: 2px;
+    border-style: solid;
+
+    width: 40%;
+    
+    padding: 50px;
+   
+    background-color: var(--white-tea);
+}
+
+.label-principal{
+    color:gray;
+    font-size: 17px;
+}
+
+.input-nomeGuia{
+    background-color:transparent;
+
+    border-style: none;
+
+    border-bottom: var(--rosemary) solid 2px;
+  
+    width: 80%;
+
+    margin-top: 10px;
+
+    transition: 1s;
+
+}
+
+.input-nomeGuia:focus{
+    outline: none;
+    border-bottom: var(--sage-green) solid 2px;
+    width: 90%;
+}
